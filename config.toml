@@ -1,16 +1,20 @@
 baseURL = "https://master.d1amwzw2qgb3d2.amplifyapp.com/"
 languageCode = "ja-jp"
-title = "てくてくテクニカル"
+title = "天月メモ"
 theme = "m10c"
 
 [params]
   author = "Amatsuki"
-  description = "Excelドキュメントは滅びて"
+  description = "Excelドキュメントは滅びよ"
 
 
 [[params.social]]
   name = "github"
   url = "https://github.com/AmatsukiUrato"
+
+[[params.social]]
+  name = "twitter"
+  url = "https://twitter.com/AmatsukiUrato"
 
 [params.style]
   darkestColor = "#d35050"
