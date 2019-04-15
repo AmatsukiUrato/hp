@@ -3,10 +3,9 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "m10c"
 
-
 [[params.social]]
   name = "github"
-  url = "https://github.com/vaga"
+  url = "https://github.com/AmatsukiUrato"
 
 [params.style]
 darkestColor = "#d35050"
