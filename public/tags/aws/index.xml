@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AWS on 天月メモ</title>
-    <link>https://master.d1amwzw2qgb3d2.amplifyapp.com/tags/aws/</link>
+    <link>https://master.d16ptiy0lcvhzf.amplifyapp.com/tags/aws/</link>
     <description>Recent content in AWS on 天月メモ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Tue, 16 Apr 2019 04:52:33 +0900</lastBuildDate>
     
-	<atom:link href="https://master.d1amwzw2qgb3d2.amplifyapp.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://master.d16ptiy0lcvhzf.amplifyapp.com/tags/aws/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Light Sailからの移行</title>
-      <link>https://master.d1amwzw2qgb3d2.amplifyapp.com/posts/light-sail%E3%81%8B%E3%82%89%E3%81%AE%E7%A7%BB%E8%A1%8C/</link>
+      <link>https://master.d16ptiy0lcvhzf.amplifyapp.com/posts/light-sail%E3%81%8B%E3%82%89%E3%81%AE%E7%A7%BB%E8%A1%8C/</link>
       <pubDate>Tue, 16 Apr 2019 04:52:33 +0900</pubDate>
       
-      <guid>https://master.d1amwzw2qgb3d2.amplifyapp.com/posts/light-sail%E3%81%8B%E3%82%89%E3%81%AE%E7%A7%BB%E8%A1%8C/</guid>
+      <guid>https://master.d16ptiy0lcvhzf.amplifyapp.com/posts/light-sail%E3%81%8B%E3%82%89%E3%81%AE%E7%A7%BB%E8%A1%8C/</guid>
       <description> 移行しました AWSのLight Sail + WordPressでやってましたが、 WordPressがだるすぎたので AWSのAWS Amplify + Hugoに移行しました。 (移行とか言ってるけど全然記事書いてなかった。。。ｗ)
 github pages とかをそのまま使うのも良かったけど、 AWSのサービスを触ってみたかったのでこっちで立ててみました。
 Hugoに移って最初に記事書いていて思うけど、 やっぱMarkdownが最強なんだわ。 スラスラ書ける。
