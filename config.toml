@@ -1,12 +1,10 @@
-baseURL = "https://amatsukiurato.github.io/hp/"
 languageCode = "ja-jp"
 title = "天月メモ"
-theme = "anybodyhome"
-canonifyurls = true
+theme = "hugo-paper"
 
-#[params]
-#  author = "Amatsuki"
-#  description = "Excelドキュメントは滅びよ"
+#[author]
+#  name = "Amatsuki"
+#  homepage = "https://AmatsukiUrato.github.io"
 #
 #
 #[[params.social]]
