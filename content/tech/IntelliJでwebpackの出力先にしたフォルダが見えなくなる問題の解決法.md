@@ -19,7 +19,8 @@ webpackの出力先フォルダだからです。
 ![intellijのsetting画像](/intellij/intellij-webpack.png)
 
 消している理由は
-1. パフォーマンスのため
+
+1. パフォーマンスのため  
 2. そもそも編集する必要がないため
 
 ですかね。
