@@ -2,6 +2,7 @@ languageCode = "ja-jp"
 title = "天月メモ"
 theme = "hugo-paper"
 baseURL = "https://amatsukiurato.github.io/"
+enableGitInfo = true
 
 #[author]
 #  name = "Amatsuki"
