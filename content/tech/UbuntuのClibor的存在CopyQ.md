@@ -14,3 +14,4 @@ Cliborみたいに、ショートカットに`Alt*2`とかの設定はできな�
 
 #### 参考
 - https://qualiartz.jp/digitaltransformation/automation/recommend-oss-copyq-clipboard-manager/
+- https://www.tecmint.com/best-clipboard-managers-for-linux/
