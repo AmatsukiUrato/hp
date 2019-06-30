@@ -2,7 +2,7 @@
 title: "IntelliJでwebpack導入後、フォルダが見えなくなる問題の解決法"
 date: 2019-06-30T20:08:06+09:00
 tags: [IntelliJ, Webpack]
-draft: true
+draft: false
 ---
 ## TL;DR
 設定からWebpackを開いて、configuration fileのパスを消す

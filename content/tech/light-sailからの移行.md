@@ -2,10 +2,8 @@
 title: "Light Sailからの移行"
 date: 2019-04-16T04:52:33+09:00
 draft: false
-categories: ["雑記"]
 tags: ["AWS", "Hugo"]
 ---
-------
 # 移行しました
 AWSのLight Sail + WordPressでやってましたが、 
 WordPressがだるすぎたので 
