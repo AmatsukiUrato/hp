@@ -4,11 +4,9 @@ theme = "hugo-paper"
 baseURL = "https://amatsukiurato.github.io/"
 enableGitInfo = true
 
-#[author]
-#  name = "Amatsuki"
-#  homepage = "https://AmatsukiUrato.github.io"
-#
-#
+[params]
+author = "Amatsuki"
+
 #[[params.social]]
 #  name = "github"
 #  url = "https://github.com/AmatsukiUrato"
