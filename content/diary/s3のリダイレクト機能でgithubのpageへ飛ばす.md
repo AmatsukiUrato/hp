@@ -2,7 +2,7 @@
 title: "S3のリダイレクト機能でgithubのpageへ飛ばしたい"
 date: 2019-07-02T23:33:13Z
 lastmod: 2019-07-02T23:33:13Z
-tags: [AWS, S3]
+tags: [AWS, S3, Route53]
 draft: false
 ---
 表題の通りです。
