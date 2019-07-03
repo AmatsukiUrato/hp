@@ -1,4 +1,3 @@
 [submodule "public"]
 	path = public
 	url = https://github.com/AmatsukiUrato/AmatsukiUrato.github.io.git
-	branch = master
