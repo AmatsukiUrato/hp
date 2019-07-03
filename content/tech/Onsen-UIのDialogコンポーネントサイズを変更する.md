@@ -2,7 +2,7 @@
 title: "Onsen UIのDialogコンポーネントサイズを変更する"
 date: 2019-07-04T03:01:22+09:00
 lastmod: 2019-07-04T03:01:22+09:00
-tags: []
+tags: [OnsenUI, JavaScript]
 draft: true
 ---
 ## TL;DR
