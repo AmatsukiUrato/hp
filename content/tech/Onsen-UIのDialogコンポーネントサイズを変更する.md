@@ -1,23 +1,23 @@
 ---
-title: "Onsen UIのDialogコンポーネントサイズを変更する"
+title: "Onsen-UIのDialogコンポーネントサイズを変更する"
 date: 2019-07-04T03:01:22+09:00
 lastmod: 2019-07-04T03:01:22+09:00
-tags: [OnsenUI, JavaScript]
+tags: [Onsen-UI, JavaScript]
 draft: true
 ---
 ## TL;DR
-- Onsen UI読み込み後に出力されるDialogをコピーして手動で使う
+- Onsen-UI読み込み後に出力されるDialogをコピーして手動で使う
 - Dialog群の形だけ取得しているので、Show, Hide共にこちら側で呼ぶ必要あり
-- Onsen UIのタグオブジェクトから、Onsen UI側で用意されている`show()`, `hide()`などが呼び出せる
+- Onsen-UIのタグオブジェクトから、Onsen-UI側で用意されている`show()`, `hide()`などが呼び出せる
     - これを使って自分で制御を行う
 
 ## 概要
 以下の画像のような、アラートのサイズを変更したいのにできない。
-Onsen UIの公式リファレンスを見てもDialogの項目にそれっぽい動作をしてくれるDialogはない。。
-![onsenui-alert](/Onsen UI/alert.png)
+Onsen-UIの公式リファレンスを見てもDialogの項目にそれっぽい動作をしてくれるDialogはない。。
+![onsenui-alert](/Onsen-UI/alert.png)
 
 ## 解決方法🤗
-1. `ons.notification.alert();`を実行して、でOnsen UIの要素を取得する。
+1. `ons.notification.alert();`を実行して、でOnsen-UIの要素を取得する。
 2. 要素をhtmlに貼り付ける。
 3. `ons-alert-dialog`に`id`をつけて、手動でDialogの表示/非表示を制御する。
 
@@ -27,7 +27,7 @@ https://onsen.io/v2/api/js/ons-modal.html#method-show
 ## 実行結果🎥
 以下の動画では`width="90%"`で設定しています
 <video style="width:100%;" autoplay controls loop>
-　　<source src="/Onsen UI/alertDialog.webm" />
+　　<source src="/Onsen-UI/alertDialog.webm" />
 </video>
 
 ### ソースコード📓
