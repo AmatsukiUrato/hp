@@ -1,7 +1,7 @@
 ---
 title: "Onsen-UIのDialogコンポーネントサイズを変更する"
 date: 2019-07-04T03:01:22+09:00
-lastmod: 2019-07-04T03:01:22+09:00
+lastmod: 2019-07-15
 tags: [Onsen-UI, JavaScript]
 draft: false
 ---
@@ -31,4 +31,4 @@ https://onsen.io/v2/api/js/ons-modal.html#method-show
 </video>
 
 ### ソースコード📓
-<script src="https://gist.github.com/AmatsukiUrato/e7c0e76959c13aa28c779f60a4de71e2.js"></script>
+{{< gist AmatsukiUrato e7c0e76959c13aa28c779f60a4de71e2 >}}
