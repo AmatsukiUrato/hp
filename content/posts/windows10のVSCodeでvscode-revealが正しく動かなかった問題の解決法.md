@@ -6,8 +6,10 @@ tags: [VSCode, revealjs, extention, markdown]
 draft: false
 ---
 ## TL;DR
-1. 改行コードを`LF`に変える
-2. 拡張機能で`LF`で書かれている部分を`CRLF`で書き直す
+### 方法1
+改行コードを`LF`に変える
+### 方法2
+拡張機能で`LF`で書かれている部分を`CRLF`で書き直す
 
 ## 原因
 TL;DRでだいたい判ると思いますが、vscode-revealのスライド仕切りの`---`がデフォでは`LF`の設定で登録されているのが問題でした。
