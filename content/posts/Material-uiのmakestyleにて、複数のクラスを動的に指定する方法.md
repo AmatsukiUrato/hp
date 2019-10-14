@@ -15,47 +15,51 @@ draft: false
 1. class名の配列を作成して、最後にjoinで配列の間に` `を入れて出力
 2. `className`の中で、２つのclass名を呼び出す。
 
+汎用性があるのは方法1のほうだと思われます。
+
 面倒くさいのでソースベタ貼りしてます。  
 `Box`は`Material-ui`のUtil-componentです。
 
-## 方法1
+## 最後に各クラスをjoinでくっつける方法
 ```js
-    return (
-        <Box display="flex" alignItems="center" justifyContent="center"
-            className={classes.block}>
-            {(() => {
-                const discClass: string[] = [classes.disc];
+return (
+    <Box display="flex" alignItems="center" justifyContent="center"
+        className={classes.block}>
+        {(() => {
+            const discClass: string[] = [classes.disc];
 
-                if (props.discStatus === DiscStatus.White) {
-                    discClass.push(classes.discWhite);
-                } else if (props.discStatus === DiscStatus.Black) {
-                    discClass.push(classes.discBlack);
-                }
-                return <Box component="div" 
-                            onClick={handleOnClickDisc} 
-                            className={discClass.join(' ')}></Box>
-            })()}
-        </Box>
-    );
+            if (props.discStatus === DiscStatus.White) {
+                discClass.push(classes.discWhite);
+            } else if (props.discStatus === DiscStatus.Black) {
+                discClass.push(classes.discBlack);
+            }
+            return <Box component="div" 
+                        onClick={handleOnClickDisc} 
+                        className={discClass.join(' ')}></Box>
+        })()}
+    </Box>
+);
 ```
 
-## 方法2
+## classNameに２つのclass名を直接入れる方法
+
+
 ```js
-    return (
-        <Box display="flex" alignItems="center" justifyContent="center"
-            className={classes.block}>
-            {(() => {
-                if (props.discStatus === DiscStatus.White) {
-                    return <Box component="div"
-                        className={`${classes.disc} ${classes.discWhite}`}></Box>
-                } else if (props.discStatus === DiscStatus.Black) {
-                    return <Box component="div"
-                        className={`${classes.disc} ${classes.discBlack}`}></Box>
-                } else if (props.discStatus === DiscStatus.Empty) {
-                    return <Box component="div"
-                        className={classes.disc}></Box>
-                }
-            })()}
-        </Box>
-    );
+return (
+    <Box display="flex" alignItems="center" justifyContent="center"
+        className={classes.block}>
+        {(() => {
+            if (props.discStatus === DiscStatus.White) {
+                return <Box component="div"
+                    className={`${classes.disc} ${classes.discWhite}`}></Box>
+            } else if (props.discStatus === DiscStatus.Black) {
+                return <Box component="div"
+                    className={`${classes.disc} ${classes.discBlack}`}></Box>
+            } else if (props.discStatus === DiscStatus.Empty) {
+                return <Box component="div"
+                    className={classes.disc}></Box>
+            }
+        })()}
+    </Box>
+);
 ```
