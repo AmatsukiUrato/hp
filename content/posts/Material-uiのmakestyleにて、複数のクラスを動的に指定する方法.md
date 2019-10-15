@@ -1,7 +1,7 @@
 ---
 title: "Material-uiのmakestyleにて、複数のクラスを動的に指定する方法"
 date: 2019-10-14T15:28:36+09:00
-lastmod: 2019-10-14T15:28:36+09:00
+lastmod: 2019-10-15
 tags: [React, Front, CSS]
 draft: false
 ---
@@ -63,3 +63,6 @@ return (
     </Box>
 );
 ```
+
+## 参考
+https://material-ui.com/styles/basics/
