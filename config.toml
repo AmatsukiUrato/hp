@@ -1,8 +1,12 @@
 baseURL = "https://amatsukiurato.github.io"
-languageCode = "ja-jp"
 title = "Amatsukiメモ"
-
+author = "Amatsuki"
+canonifyurls = true
+paginate = 4
+languageCode = "ja-jp"
 theme = "hugo-blog-jeffprod"
+pygmentsUseClasses = true
+pygmentsCodefences = true
 
 [permalinks]
     post = "/:year/:filename"
@@ -10,3 +14,7 @@ theme = "hugo-blog-jeffprod"
 [taxonomies]
     tag = "tags"
     archive = "archives"
+
+[params]
+    twitter = "https://twitter.com/AmatsukiUrato"
+    github = "https://github.com/AmatsukiUrato"

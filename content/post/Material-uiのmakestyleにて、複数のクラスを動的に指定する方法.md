@@ -14,6 +14,7 @@ author: Amatsuki
 ## 概要
 最近、Reactについての勉強を行っていたところ、`class`の指定に手間取ってしまったのでメモ。
 方法としては、探したところ、以下2つがあるみたい。
+
 1. class名の配列を作成して、最後にjoinで配列の間に` `を入れて出力
 2. `className`の中で、２つのclass名を呼び出す。
 
@@ -23,7 +24,7 @@ author: Amatsuki
 `Box`は`Material-ui`のUtil-componentです。
 
 ## 最後に各クラスをjoinでくっつける方法
-```js
+```tsx
 return (
     <Box display="flex" alignItems="center" justifyContent="center"
         className={classes.block}>
@@ -44,9 +45,16 @@ return (
 ```
 
 ## classNameに２つのclass名を直接入れる方法
+{{< highlight go "linenos=inline,linenostart=1,hl_lines=5-7" >}}
+package main
 
+import "fmt"
 
-```js
+func main() {
+    fmt.Println("Hello, world!")
+}
+{{< /highlight >}}
+```tsx
 return (
     <Box display="flex" alignItems="center" justifyContent="center"
         className={classes.block}>
