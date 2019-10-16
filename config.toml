@@ -7,6 +7,7 @@ languageCode = "ja-jp"
 theme = "hugo-blog-jeffprod"
 pygmentsUseClasses = true
 pygmentsCodefences = true
+enableGitInfo = true
 
 [permalinks]
     post = "/:year/:filename"

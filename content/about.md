@@ -26,10 +26,11 @@ draft: false
 - PCゲーム(BattleField3, Ark, CS:GOをそこそこやってました)
 - 技術情報
 - 頑張ってる人
-- クド
 - 考えて批判してくれる人
+- クド
 - コーラ
 - 静的型付け言語
+- MarkDown
 - 音楽
     - Surface
     - いきものがかり
@@ -43,3 +44,4 @@ draft: false
 - JQuery
 - 腹痛
 - クソ長いメソッド
+- ネ申Excel
