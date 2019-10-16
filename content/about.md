@@ -37,6 +37,7 @@ draft: false
     - Duca
     - yozuca*
     - KOTOKO
+    - 真理絵
     - 佐倉紗織
 
 ## 嫌い
