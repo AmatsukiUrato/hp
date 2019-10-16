@@ -1,0 +1,12 @@
+baseURL = "https://amatsukiurato.github.io"
+languageCode = "ja-jp"
+title = "Amatsukiメモ"
+
+theme = "hugo-blog-jeffprod"
+
+[permalinks]
+    post = "/:year/:filename"
+
+[taxonomies]
+    tag = "tags"
+    archive = "archives"
