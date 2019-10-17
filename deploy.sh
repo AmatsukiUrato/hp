@@ -24,6 +24,6 @@ git push origin master
 cd ..
 
 # Push homepage source
-git add.
+git add .
 git commit -m "$msg"
 git push origin master

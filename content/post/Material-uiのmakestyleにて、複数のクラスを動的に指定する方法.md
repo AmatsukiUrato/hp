@@ -45,15 +45,6 @@ return (
 ```
 
 ## classNameに２つのclass名を直接入れる方法
-{{< highlight go "linenos=inline,linenostart=1,hl_lines=5-7" >}}
-package main
-
-import "fmt"
-
-func main() {
-    fmt.Println("Hello, world!")
-}
-{{< /highlight >}}
 ```tsx
 return (
     <Box display="flex" alignItems="center" justifyContent="center"
