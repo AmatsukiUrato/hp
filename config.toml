@@ -8,6 +8,8 @@ theme = "hugo-blog-jeffprod"
 pygmentsUseClasses = true
 pygmentsCodefences = true
 enableGitInfo = true
+hasCJKLanguage = true
+summaryLength = 250
 
 [permalinks]
     post = "/:year/:filename"
