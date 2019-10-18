@@ -1,13 +1,13 @@
 baseURL = "https://amatsukiurato.github.io"
 title = "Amatsukiメモ"
 author = "Amatsuki"
+enableGitInfo = true
 canonifyurls = true
 paginate = 4
 languageCode = "ja-jp"
 theme = "hugo-blog-jeffprod"
 pygmentsUseClasses = true
 pygmentsCodefences = true
-enableGitInfo = true
 hasCJKLanguage = true
 summaryLength = 250
 
@@ -21,3 +21,6 @@ summaryLength = 250
 [params]
     twitter = "https://twitter.com/AmatsukiUrato"
     github = "https://github.com/AmatsukiUrato"
+
+[frontmatter]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
