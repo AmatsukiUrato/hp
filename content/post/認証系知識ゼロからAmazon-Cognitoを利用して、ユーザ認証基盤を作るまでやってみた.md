@@ -13,5 +13,10 @@ draft: true
 - 標準属性とは？
 
 ## 参考
-https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be
-https://dev.classmethod.jp/cloked/alb-cognito-user-pool/
+- Cognitoで認証するまで
+    - https://qiita.com/TakahikoKawasaki/items/e37caf50776e00e733be
+    - https://dev.classmethod.jp/cloked/alb-cognito-user-pool/
+
+- ログイン画面のオリジナル化
+    - https://www.tdi.co.jp/miso/amazon-cognito-sign-up
+    - https://qiita.com/Yuki_BB3/items/4286545e8b889ec13088
