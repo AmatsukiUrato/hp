@@ -10,6 +10,7 @@ pygmentsUseClasses = true
 pygmentsCodefences = true
 hasCJKLanguage = true
 summaryLength = 250
+disqusShortname = "https-amatsukiurato-github-io"
 
 [permalinks]
     post = "/:year/:filename"
