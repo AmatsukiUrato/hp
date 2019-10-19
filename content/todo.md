@@ -7,4 +7,4 @@ author: Amatsuki
 draft: false
 ---
 - 記事更新の自動化
-    - `.GitInfo`がうまく動かない
+    - `.GitInfo`が記事のページでうまく動かない
