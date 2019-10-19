@@ -11,8 +11,7 @@ draft: false
 
 ## 原因
 **IntelliJ**が賢すぎた。  
-というのも、webpackのアウトプット先が
-intelliJ IDEA上でExcluded(非表示になりIntellij上から閲覧できなくなる)のは、
+というのも、webpackのアウトプット先がintelliJ IDEA上でExcluded(非表示になりIntellij上から閲覧できなくなる)のは、  
 webpackの出力先フォルダだからです。
 
 設定は以下の場所にあり、  
@@ -25,8 +24,8 @@ webpackの出力先フォルダだからです。
 1. パフォーマンスのため  
 2. そもそも編集する必要がないため
 
-ですかね。
-これ解決するのに結構時間かかりました。。。
+みたいですね。  
+これ解決するのに結構時間かかりました…
 
 ## 参考
 [intellij bundlei\_jsが消える理由](https://youtrack.jetbrains.com/issue/WEB-35875)
