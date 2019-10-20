@@ -12,7 +12,7 @@ git push origin master
 # Build the project.
 (
 cd public
-ls | xargs rm -rf
+ls | xargs rm -rf >> /dev/null
 )
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
