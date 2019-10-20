@@ -1,5 +1,5 @@
 ---
-title: "理由は不明だが、hugoの`.GitInfo`が適応された話"
+title: "hugoの.GitInfoが適応された話(理由は不明です…)"
 date: 2019-10-20T12:47:18+09:00
 lastmod: 2019-10-20T12:47:18+09:00
 tags: [hugo, git]
