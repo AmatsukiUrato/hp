@@ -10,6 +10,10 @@ git commit -m "$msg"
 git push origin master
 
 # Build the project.
+(
+cd public
+ls | xargs rm -rf
+)
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
