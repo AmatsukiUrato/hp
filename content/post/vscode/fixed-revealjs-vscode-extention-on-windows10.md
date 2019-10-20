@@ -27,10 +27,10 @@ TL;DRでだいたい判ると思いますが、vscode-revealのスライド仕�
 1. 拡張機能の設定画面を開く(`Ctrl + ,`)
 2. reveal JSの項目を探し、**Revealjs: Separator**の内容にある`\n`を`\r?\n`に修正する
 
-![変更する場所](/resources/vscode/vscode-reveal-new-line.png)
+![変更する場所](/resources/fixed-revealjs-vscode-extention-on-windows10/vscode-reveal-new-line.png)
 
 ### VSCodeの改行コードを変更する場合
 1. VSCodeのfooter右にある改行コード`CRLF`をクリック
 2. `LF`に変更する
 
-![変更する場所](/resources/vscode/vscode-footer-new-line.png)
+![変更する場所](/resources/fixed-revealjs-vscode-extention-on-windows10/vscode-footer-new-line.png)

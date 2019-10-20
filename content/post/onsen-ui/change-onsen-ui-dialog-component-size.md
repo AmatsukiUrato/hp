@@ -16,7 +16,7 @@ author: Amatsuki
 ## 概要
 以下の画像のような、アラートのサイズを変更したいのにできない。
 Onsen-UIの公式リファレンスを見てもDialogの項目にそれっぽい動作をしてくれるDialogはない。。
-![onsenui-alert](/resources/Onsen-UI/alert.png)
+![onsenui-alert](/resources/change-onsen-ui-dialog-component-size/alert.png)
 
 ## 解決方法🤗
 1. `ons.notification.alert();`を実行して、でOnsen-UIの要素を取得する。
@@ -29,7 +29,7 @@ https://onsen.io/v2/api/js/ons-modal.html#method-show
 ## 実行結果🎥
 以下の動画では`width="90%"`で設定しています
 <video style="width:100%;" autoplay controls loop>
-　　<source src="/resources/Onsen-UI/alertDialog.webm" />
+　　<source src="/resources/change-onsen-ui-dialog-component-size/alertDialog.webm" />
 </video>
 
 ### ソースコード📓

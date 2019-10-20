@@ -17,7 +17,7 @@ webpackの出力先フォルダだからです。
 設定は以下の場所にあり、  
 `Preferences | Languages & Frameworks | JavaScript | Webpackwebpack`  の`configuration file:`の項目を空文字列にすることによってIntelliJ上から編集できるようになります。  
 
-![intellijのsetting画像](/resources/intellij/intellij-webpack.png)
+![intellijのsetting画像](/resources/why-did-webpack-hide-outputfile-on-intellij/intellij-webpack.png)
 
 消している理由は
 
