@@ -1,7 +1,6 @@
 ---
 title: "Route53のルーティング問題を解決した話"
 date: 2019-07-15T18:58:56+09:00
-lastmod: 2019-07-15T18:58:56+09:00
 tags: [Route53, AWS]
 draft: false
 archives: "2019"

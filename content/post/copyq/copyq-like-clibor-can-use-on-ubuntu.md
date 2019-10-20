@@ -1,7 +1,6 @@
 ---
 title: "UbuntuのClibor的存在CopyQ"
 date: 2019-06-30T23:38:31+09:00
-lastmod: 2019-07-01
 tags: [Ubuntu, CopyQ]
 draft: false
 archives: "2019"

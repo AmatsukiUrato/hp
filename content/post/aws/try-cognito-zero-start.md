@@ -1,7 +1,6 @@
 ---
 title: "認証系知識ゼロからAmazon Cognitoを利用して、ユーザ認証基盤を作るまでやってみた"
 date: 2019-10-19T13:44:41+09:00
-lastmod: 2019-10-19T13:44:41+09:00
 tags: [AWS,Coginito, ユーザ認証]
 archives: "2019"
 author: Amatsuki

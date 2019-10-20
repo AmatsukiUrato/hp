@@ -1,7 +1,6 @@
 ---
 title: "Windows10のVSCodeでvscode Revealが正しく動かなかった問題の解決法"
 date: 2019-07-18T05:18:30+09:00
-lastmod: 2019-07-18T05:18:30+09:00
 tags: [VSCode, revealjs, extention, markdown]
 draft: false
 archives: "2019"
