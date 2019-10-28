@@ -60,25 +60,12 @@ Dropboxはローカルで同期させる際も普通のファイルと同様に�
 
 ### 3. iCloud Drive
 iCloud Driveは5GBと少し心もとないですが、もともと使っていたDropboxと比べれば２倍に増えるのでこちらでも良いかなと思いました。  
-しかし、ターミナルからiCloud Driveへアクセスしづらいという問題があります(一応解決済)。  
+しかし、ターミナルからiCloud Driveへアクセスしづらいという問題があります([一応解決済]({{< ref "/post/iCloud/how-to-display-icloud-doc-on-home.md" >}}))    
 バージョン管理機能については、少し探したのですが見つかりませんでした。
 
 ターミナルの調整が面倒だし、特にApple信者でもないので今回は使わない方針で行きました。Apple端末をいっぱい持ってる人なら`iCloud Drive`は良いかもしれないです。
 
-#### ターミナルからアクセスしづらい問題
-ターミナル上からiCloud Driveのファイルへアクセスしようとするには、  
-```
-Users/[userName]/Library/Mobile\ Documents/com~apple~CloudDocs
-```  
-にまでアクセスしなければならないです。  
-一応シンボリックリンクは貼れますが、これも少し曲者でリンク元の方にスペース` `が入っているため、クォーテーションでくくってあげないとだめです(自分は気づかずに10分ぐらい悩んだ)。  
-```
-ln -s "/Users/$USER/Library/Mobile Documents/com~apple~CloudDocs" iCloud
-```
 
-##### 参考
-[Make A Symbolic Link to Your iCloud Drive](https://levlaz.org/make-a-symbolic-link-to-your-icloud-drive/)  
-[ターミナルからiCloud driveに移動する方法](https://qiita.com/mom0tomo/items/aba245bcd4ce07e9a48f)
 
 ### 4. OneDrive
 Googleと比べ容量こそ少ないものの、履歴管理は見やすく、Microsoft Office系のOnline版(一部機能制限あり)を使えるのはかなり良いと思います。  
