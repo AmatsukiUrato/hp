@@ -6,6 +6,7 @@ msg="rebuilding site `date`"
 
 # Push homepage source
 echo -e "\033[0;32mCommiting homepage source...\033[0m"
+
 git add .
 git commit -m "$msg"
 git push origin master
