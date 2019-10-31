@@ -11,6 +11,8 @@ pygmentsCodefences = true
 hasCJKLanguage = true
 summaryLength = 250
 disqusShortname = "https-amatsukiurato-github-io"
+enableEmoji = true
+
 
 [permalinks]
     post = "/:year/:filename"
