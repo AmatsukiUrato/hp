@@ -6,11 +6,12 @@ draft: false
 archives: "2019"
 author: Amatsuki
 ---
-
+# 概要
 普段WindowsではClipBoardの履歴に`clibor`を使っています。  
 最近OSをubuntuで利用することがあり、ubuntuでコピー履歴管理を探していたところ、  
 Windows/MacOS/Linux対応のCopyQ![copyQIcon](/resources/copyq-like-clibor-can-use-on-ubuntu/copyq-icon.png)ってのが見つかりました。
 
+# さわってみて
 Cliborみたいに、ショートカットに`Alt*2`とかの設定はできませんでしたが、  
 `無変換`に割り当てられたので概ね満足。
 
@@ -19,6 +20,6 @@ Cliborみたいに、ショートカットに`Alt*2`とかの設定はできま�
 CopyQには、履歴管理以外にも機能があるみたいですが、  
 とりあえずやりたいことができたのでOK。
 
-#### 参考
+# 参考
 - https://qualiartz.jp/digitaltransformation/automation/recommend-oss-copyq-clipboard-manager/
 - https://www.tecmint.com/best-clipboard-managers-for-linux/

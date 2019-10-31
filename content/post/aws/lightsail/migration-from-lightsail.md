@@ -6,7 +6,7 @@ archives: "2019"
 author: Amatsuki
 tags: ["AWS", "Hugo"]
 ---
-## 移行しました
+# 移行しました
 AWSのLight Sail + WordPressでやってましたが、 
 WordPressがだるすぎたので AWSの~~[AWS Amplify + Hugo]に移行しました。~~  
 現在は[github pages + Hugo]  
@@ -22,13 +22,13 @@ Hugoに移って最初に記事書いていて思うけど、
 めっちゃこれいいやん、みたいなプラグインは見当たりませんでした😥
 
 
-## Hugoで辛かったこと
+# Hugoで辛かったこと
 - `AWS Amplify`を利用する場合は、gitのsubmoduleを使ってはいけない
 - `draft`は下書き機能で、`false`にしないと記事が表示されないこと。<br>(これを忘れててずっと表示されないぞおおおお！ってなってました。あほや)
 - テーマが崩れるときがある
 
 
-## 追記
+# 追記
 結局上記のいろいろな問題で萎えて、止まってました。  
 現在はgithub-pagesに移して動かしてます。草も生えるし無料だし特に重要じゃないhomepageだったらこっちでいいね。  
 `AWS Amplify`触ってたのは勉強もかねてだったので、それはそれでよかったです。  
