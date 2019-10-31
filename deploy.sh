@@ -5,10 +5,12 @@ echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 msg="rebuilding site `date`"
 
 # Push homepage source
+echo -e "\033[0;32mCommiting homepage source...\033[0m"
 git add .
 git commit -m "$msg"
 git push origin master
 
+echo -e "\033[0;32mRebuilding public folder...\033[0m"
 # Build the project.
 (
 cd public
@@ -16,7 +18,9 @@ ls | xargs rm -rf >> /dev/null
 )
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
+
 # Go To Public folder
+echo -e "\033[0;32mCommiting public folder...\033[0m"
 cd public
 # Add changes to git.
 git add .
