@@ -89,6 +89,13 @@ section {
 
 [上記styleを含めてコンバートした際のpdf](/resources/updated-marp/marp-docker-sample-custom-font.pdf)
 
+上記では、`Noto Serif JP`をインポートしてますが、おすすめは
+
+- Noto Sans JP
+- M PLUS 1p
+
+です。s
+
 # さいごに
 Marpみたいな、イイ感じじゃないものをいい感じにするツールはやっぱり最高だと思いました！  
 製作者に感謝🙇‍♂️
