@@ -7,7 +7,7 @@ author: Amatsuki
 draft: false
 ---
 # はじめに
-ふと名刺にARマーカーが記載されていて、  
+ふと、名刺にARマーカーが記載されていて、  
 川島教授の顔みたいな(脳トレ)のが出てきたら、とても面白いなと思いついて触ってみました。
 
 >![顔](https://www.nintendo.co.jp/ds/anmj/top/needfla.gif)
@@ -16,7 +16,7 @@ https://www.nintendo.co.jp/ds/anmj/index.html
 (余談ですが、脳トレの[Switch版](https://topics.nintendo.co.jp/c/article/aa9b7d00-e021-11e9-b641-063b7ac45a6d.html)がでるみたいです)
 
 # ARの実現方法
-検索したところ、Unityで実現する方法とWeb技術で実現する方法がありました。  
+軽く検索したところ、Unityで実現する方法とWeb技術で実現する方法が見つかりました。  
 ネイティブで実現する方法もあると思いますが、今回はこの2つを見ていきます。
 
 ## Unity
@@ -49,7 +49,7 @@ Unityにするなら、アセットなどのデータを使えると思うので
 
 # 実際に動かしてみる
 とりあえず、「[A-FrameとAR.jsで超簡単AR（PC・スマホ・マルチマーカー対応）](https://qiita.com/mkoku/items/c635566e829c303a7d3f)」を参考に作ります。
-上記リンクを参考に作ったソースはこちらです(ほぼコピペ🤦‍♂️)。
+上記リンクを参考に作ったソースはこちらです(ほぼコピペ🤔)。
 
 >```html
 <!doctype HTML>
@@ -81,15 +81,14 @@ Unityにするなら、アセットなどのデータを使えると思うので
 ...  
 表示されない…だと!?  
 やっぱりhttps通信じゃないのが原因なんですかね？~~  
-
-![not-supported](/resources/try-to-create-ar-page/not-supported.png)
+{{< figure src="/resources/try-to-create-ar-page/not-supported.png" width="400px">}}
 
 https通信が原因でうまく行ってませんでした。  
 同一ネットワーク内からなら行けるんじゃねという謎の考えのせい😭
 
 ## スマホ側から動作させる
 [🐶AR.jsを使ってWebAR年賀状を作る🐶](https://iti.hatenablog.jp/entry/2017/12/04/090023)  
-を参考にして、rubyのワンライナーでサーバを立てたところ、うまくいきました(圧倒的感謝…!!)。
+を参考にして、rubyのワンライナーでhttpsサーバを立てたところ、うまくいきました(圧倒的感謝…!!)。
 
 下記ワンライナーはカレントディレクトリのデータを外部に公開してくれるものみたいです。
 
@@ -100,8 +99,7 @@ ruby -rwebrick -rwebrick/https -e 'WEBrick::HTTPServer.new(:DocumentRoot => "./"
 実際に接続してみた画像がこちらです。
 今回はとりあえず、自分のInfoをテキストで表示するところまで行いました。
 
-![can-display-ar-sp](/resources/try-to-create-ar-page/can-display-ar-sp.png)
-
+{{< figure src="/resources/try-to-create-ar-page/can-display-ar-sp.png" alt="can-display-ar-sp" width="400px">}}
 
 ## PCのカメラで動作させる
 MacBookProのカメラで無理やり確認したやつも載せておきます。
@@ -110,4 +108,4 @@ MacBookProのカメラで無理やり確認したやつも載せておきます�
 
 # さいごに
 とりあえず、ARマーカーを使って文字を表示できるところまでは実装できました(ほぼほぼ自分が書いたところがない🙈)。  
-次やるときは、`Three.js`とかも勉強して、もう少し画像とかを表示させてみたいです。
+結局、解説ページの後をなぞって終わりになってしまったので、次やるときは、もう少し違うものを表示させてみたいです。`Three.js`を触って見るものも面白いかもしれないです。
