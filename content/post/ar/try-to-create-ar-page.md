@@ -85,7 +85,7 @@ docker run --name nignx -v $PWD:/usr/share/nginx/html -d -p 8080:80 -h 0.0.0.0 n
 ```
 >a-textの部分以外は、参考先のhtmlを使用しております。
 
-![not-supported](/resources/try-to-create-ar-page/can-display-ar.png)
+![can-display-ar](/resources/try-to-create-ar-page/can-display-ar.png)
 
 # さいごに
 とりあえず、ARマーカーを使って文字を表示できるところまでは実装できました。  
