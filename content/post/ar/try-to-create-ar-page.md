@@ -16,7 +16,8 @@ https://www.nintendo.co.jp/ds/anmj/index.html
 (余談ですが、脳トレの[Switch版](https://topics.nintendo.co.jp/c/article/aa9b7d00-e021-11e9-b641-063b7ac45a6d.html)がでるみたいです)
 
 # ARの実現方法
-検索したところ、Unityで実現する方法とWeb技術で実現する方法がありました。
+検索したところ、Unityで実現する方法とWeb技術で実現する方法がありました。  
+ネイティブで実現する方法もあると思いますが、今回はこの2つを見ていきます。
 
 ## Unity
 どうやら、`Vuforia`という外部ツールと連携して使うのが主流みたいです。
@@ -39,32 +40,16 @@ iOSだと`ARkit`、Androidだと`ARCore`というSDKを使って作成できる�
 ### 参考
 - [A-FrameとAR.jsで超簡単AR（PC・スマホ・マルチマーカー対応）](https://qiita.com/mkoku/items/c635566e829c303a7d3f)
 - [【AR.js入門】簡単にWebARで遊んでみた【A-Frame使うよ】](https://qiita.com/sakaryu/items/769a2a538baf7e4ee1c7)
+- [🐶AR.jsを使ってWebAR年賀状を作る🐶](https://iti.hatenablog.jp/entry/2017/12/04/090023)
 
 # どっちにするか
-Unityにするなら、アセットなどのデータを使えると思うので資産的にはすごく大きいと思いますが、Unityということは、アプリにする必要があると考えとります(UnityのWebGLビルドは未調査)。
+Unityにするなら、アセットなどのデータを使えると思うので資産的にはすごく大きいと思いますが、Unityということは、アプリにする必要があると考えとります(UnityのWebGLビルドがどうとかは未調査です)。
 
 今回は簡単に実行できてほかったのと、自分がWeb技術を中心に触っていることから、Web技術で作る方針にしました。
 
 # 実際に動かしてみる
 とりあえず、「[A-FrameとAR.jsで超簡単AR（PC・スマホ・マルチマーカー対応）](https://qiita.com/mkoku/items/c635566e829c303a7d3f)」を参考に作ります。
-
-上記を参考に、`index.html`を作成します。とりあえずのテストなので、`nginx`のDockerコンテナを使って立てました。
-
-下記Dockerコマンドを叩くカレントディレクトリに`index.html`をおいておけば`localhost:8080`または、同一ネットワークから`[dockerを起動しているPCのip]:8080`で接続が可能になります。
-
-```bash
-docker run --name nignx -v $PWD:/usr/share/nginx/html -d -p 8080:80 -h 0.0.0.0 nginx
-```
-
-自分のスマホでアクセスしてみます。  
-...  
-表示されない…だと!?  
-どうやら、自分の端末はARCore対応外の端末だったみたいです…  
-対応表は [ARCore supported devices](https://developers.google.com/ar/discover/supported-devices) に記載されています。
-
-![not-supported](/resources/try-to-create-ar-page/not-supported.png)
-
-仕方がないので、MacBookProのカメラで無理やり確認しました。今回はとりあえず、自分のInfoをテキストで表示するところまで行いました。
+上記リンクを参考に作ったソースはこちらです(ほぼコピペ🤦‍♂️)。
 
 >```html
 <!doctype HTML>
@@ -85,8 +70,44 @@ docker run --name nignx -v $PWD:/usr/share/nginx/html -d -p 8080:80 -h 0.0.0.0 n
 ```
 >a-textの部分以外は、参考先のhtmlを使用しております。
 
-![can-display-ar](/resources/try-to-create-ar-page/can-display-ar.png)
+## スマホから繋げない問題
+~~上記を参考に、`index.html`を作成します。とりあえずのテストなので、`nginx`のDockerコンテナを使って立てました。~~
+
+~~下記Dockerコマンドを叩くカレントディレクトリに`index.html`をおいておけば`localhost:8080`または、同一ネットワークから`[dockerを起動しているPCのip]:8080`で接続が可能になります。~~
+
+~~`docker run --name nignx -v $PWD:/usr/share/nginx/html -d -p 8080:80 -h 0.0.0.0 nginx`~~
+
+~~自分のスマホでアクセスしてみます。  
+...  
+表示されない…だと!?  
+やっぱりhttps通信じゃないのが原因なんですかね？~~  
+
+![not-supported](/resources/try-to-create-ar-page/not-supported.png)
+
+https通信が原因でうまく行ってませんでした。  
+同一ネットワーク内からなら行けるんじゃねという謎の考えのせい😭
+
+## スマホ側から動作させる
+[🐶AR.jsを使ってWebAR年賀状を作る🐶](https://iti.hatenablog.jp/entry/2017/12/04/090023)  
+を参考にして、rubyのワンライナーでサーバを立てたところ、うまくいきました(圧倒的感謝…!!)。
+
+下記ワンライナーはカレントディレクトリのデータを外部に公開してくれるものみたいです。
+
+```ruby
+ruby -rwebrick -rwebrick/https -e 'WEBrick::HTTPServer.new(:DocumentRoot => "./", :Port => 8000, :SSLEnable => true, :SSLCertName => [["CN", WEBrick::Utils::getservername]] ).start'
+```
+
+実際に接続してみた画像がこちらです。
+今回はとりあえず、自分のInfoをテキストで表示するところまで行いました。
+
+![can-display-ar-sp](/resources/try-to-create-ar-page/can-display-ar-sp.png)
+
+
+## PCのカメラで動作させる
+MacBookProのカメラで無理やり確認したやつも載せておきます。
+
+![can-display-ar-pc](/resources/try-to-create-ar-page/can-display-ar-pc.png)
 
 # さいごに
-とりあえず、ARマーカーを使って文字を表示できるところまでは実装できました。  
+とりあえず、ARマーカーを使って文字を表示できるところまでは実装できました(ほぼほぼ自分が書いたところがない🙈)。  
 次やるときは、`Three.js`とかも勉強して、もう少し画像とかを表示させてみたいです。
