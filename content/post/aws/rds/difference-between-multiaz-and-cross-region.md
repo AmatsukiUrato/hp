@@ -52,6 +52,7 @@ DBの重要性やコスト感を考えて運用していくことが大事。
 
 # 参考
 - [【新機能】RDS for PostgreSQLでもリージョン間レプリケーションが可能に！](https://dev.classmethod.jp/cloud/aws/rds-for-postgresql-cross-region-replication/)
-- [別のAWSリージョンでのリードレプリカの作成 > クロスリージョンレプリケーションの考慮事項](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.XRgn)
-- [AWS リージョン間での Amazon Aurora MySQL DB クラスターのレプリケート](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Replication.CrossRegion.html)
-- [Amazon RDS での高可用性 (マルチ AZ)](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html)
+- AWS公式
+    - [別のAWSリージョンでのリードレプリカの作成 > クロスリージョンレプリケーションの考慮事項](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/USER_ReadRepl.html#USER_ReadRepl.XRgn)
+    - [AWS リージョン間での Amazon Aurora MySQL DB クラスターのレプリケート](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.Replication.CrossRegion.html)
+    - [Amazon RDS での高可用性 (マルチ AZ)](https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.html)
