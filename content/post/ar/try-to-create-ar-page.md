@@ -1,5 +1,5 @@
 ---
-title: "ブラウザを使ってARを使ってみた"
+title: "ブラウザでARを使ってみた"
 date: 2019-11-04T13:47:45+09:00
 tags: [AR, AR.js, A-Frame, JavaScript]
 archives: "2019"
