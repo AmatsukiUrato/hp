@@ -4,7 +4,7 @@ date: 2019-11-06T21:54:53+09:00
 tags: [git, git-secrets]
 archives: "2019"
 author: Amatsuki
-draft: true
+draft: false
 ---
 # はじめに
 昨日、日課のはてなブックマークを漁っていたところ、Developers.IOさんの [AWSでのセキュリティ対策全部盛り[初級から中級まで]](https://speakerdeck.com/cmusudakeisuke/awstefalsesekiyuriteidui-ce-quan-bu-sheng-ri-chu-ji-karazhong-ji-mate)というスライドを見つけました。
