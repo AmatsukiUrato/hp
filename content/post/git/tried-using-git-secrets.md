@@ -60,7 +60,7 @@ git secrets --register-aws
 アップロードされているみたいですね😈  
 そもそも、`git-secrets`の概要が
 
->Prevents you from committing secrets and credentials into git repositories
+>Prevents you from committing secrets and credentials into git repositories  
 >(シークレットとクレデンシャル情報をgitリポジトリへコミットするのを防ぎます)
 
 となっているので当たり前といえば、当たり前です。
