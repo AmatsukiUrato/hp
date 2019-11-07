@@ -74,8 +74,8 @@ git secrets --scan-history
 ![検知確認](/resources/tried-using-git-secrets/secret3.png)
 
 # さいごに
-`git-secrets`を入れておけば基本的にtokenを`push`してもうたｗｗｗ  
-ｗもう終わりや😇😇😇
+`git-secrets`を入れておけば基本的にtokenを`push`してもうたｗｗｗw  
+もう終わりや😇😇😇 ...orz
 
 にはならずに済みます。
 シークレットを`push`すること自体がほぼないと思うので、リポジトリ全体のsecret保護が行えるようになる
