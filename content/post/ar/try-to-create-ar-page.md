@@ -10,7 +10,7 @@ draft: false
 ふと、名刺にARマーカーが記載されていて、  
 川島教授の顔みたいな(脳トレ)のが出てきたら、とても面白いなと思いついて触ってみました。
 
->![顔](https://www.nintendo.co.jp/ds/anmj/top/needfla.gif)
+>![顔](https://www.nintendo.co.jp/ds/anmj/top/needfla.gif)  
 >[もっと脳を鍛える大人のDSトレーニング™](https://www.nintendo.co.jp/ds/anmj/index.html)
 
 (余談ですが、脳トレの[Switch版](https://topics.nintendo.co.jp/c/article/aa9b7d00-e021-11e9-b641-063b7ac45a6d.html)がでるみたいです)
