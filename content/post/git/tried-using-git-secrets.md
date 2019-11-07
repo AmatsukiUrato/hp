@@ -1,5 +1,5 @@
 ---
-title: "git-secretsでawsトークンの保護を検証してみた"
+title: "git-secretsのawsトークン保護を検証してみた"
 date: 2019-11-06T21:54:53+09:00
 tags: [git, git-secrets]
 archives: "2019"
