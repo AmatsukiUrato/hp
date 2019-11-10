@@ -1,5 +1,5 @@
 ---
-title: "RaspberryPi 3 MODEL Bで遊ぶ"
+title: "RaspberryPi 3 Model Bで遊ぶ"
 date: 2017-02-01
 tags: [RaspberryPi, uv4l]
 archives: "2017"
