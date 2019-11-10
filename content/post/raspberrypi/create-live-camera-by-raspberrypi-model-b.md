@@ -20,8 +20,8 @@ NOOBSとは、ラズパイ用に作られたDebianベースのOSであるRaspbia
 [NOOBSダウンロードページ](https://www.raspberrypi.org/downloads/noobs/)でNOOBS落としてSDカードにブチ込んで終了。
 
 # Raspbianを起動してsshdをRaspbian起動時に起動させるようにする
-※sudo apt-get install sysv-rc-confでsysv-rc-confを入れてRaspbian起動時設定してもうまくいきません。  
-どうやらRaspbianはsystemdで制御しないとだめみたいです。  
+`sudo apt-get install sysv-rc-conf`で`sysv-rc-conf`を入れてRaspbian起動時設定してもうまくいきません。  
+どうやらRaspbianは`systemd`で制御しないとだめみたいです。  
 [参考](https://teratail.com/questions/62910)
 
 # IP固定設定をする
