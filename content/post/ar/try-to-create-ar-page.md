@@ -8,12 +8,12 @@ draft: false
 ---
 # はじめに
 ふと、名刺にARマーカーが記載されていて、  
-川島教授の顔みたいな(脳トレ)のが出てきたら、とても面白いなと思いついて触ってみました。
+川島教授の顔みたいな（脳トレ）のが出てきたら、とてもおもしろいなと思いついて触ってみました。
 
 >![顔](https://www.nintendo.co.jp/ds/anmj/top/needfla.gif)  
 >[もっと脳を鍛える大人のDSトレーニング™](https://www.nintendo.co.jp/ds/anmj/index.html)
 
-(余談ですが、脳トレの[Switch版](https://topics.nintendo.co.jp/c/article/aa9b7d00-e021-11e9-b641-063b7ac45a6d.html)がでるみたいです)
+（余談ですが、脳トレの[Switch版](https://topics.nintendo.co.jp/c/article/aa9b7d00-e021-11e9-b641-063b7ac45a6d.html)がでるみたいです）
 
 # ARの実現方法
 軽く検索したところ、Unityで実現する方法とWeb技術で実現する方法が見つかりました。  
@@ -35,7 +35,7 @@ iOSだと`ARkit`、Androidだと`ARCore`というSDKを使って作成できる�
 ## Web
 こちらは、`AR.js`と`A-Frame.js`を活用したものが主流みたいです。
 `A-Frame.js`でオブジェクトをレンダリングして、それを`AR.js`でAR化しているっぽいです。  
-また、今回は使用していませんが`Three.js`(Webブラウザ上で3Dレンダリングできるようにするライブラリ)を組み合わせ
+また、今回は使用していませんが`Three.js`（Webブラウザ上で3Dレンダリングできるようにするライブラリ）を組み合わせ
 
 ### 参考
 - [A-FrameとAR.jsで超簡単AR（PC・スマホ・マルチマーカー対応）](https://qiita.com/mkoku/items/c635566e829c303a7d3f)
