@@ -35,7 +35,12 @@ draft: false
 {{ end }}
 ```
 で実装できる。  
-多分読んだらわかると思いますが、一応解説します。
+実際の表示はこんな感じ😗
+
+![display-warning](/resources/show-notification-if-now-greater-equal-updated-time/no-update-one-year.png)
+
+
+多分上記のコードを読んだらわかると思いますが、一応解説します。
 
 ```go-html-template
 {{ $year := (div (sub now.Unix .Lastmod.Unix) 31536000) }}
