@@ -97,8 +97,8 @@ Marp CLIもいいけど、ぱっと簡単に使うならこっち。
 # 二軍
 そこまで頻繁に使わないものや、少し尖ったもの。
 
-## vscode-spotify
-下のバーにSpotifyの情報が表示される🎵。  
+## vscode-spotify🎵
+下のバーにSpotifyの情報が表示される。  
 音楽聴きながら作業していると、地味に画面移動をするシーンが多いのでVS Code1つで収まるのは便利。
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify)
