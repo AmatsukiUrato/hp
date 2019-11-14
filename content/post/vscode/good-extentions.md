@@ -79,7 +79,7 @@ Marp CLIもいいけど、ぱっと簡単に使うならこっち。
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-## GitLens — Git supercharged⚪️
+## GitLens — Git supercharged🥽
 拡張機能のタイトルに付いていてちょっとムカついたが、その名の通り、`git`をめちゃくちゃ便利にしてくれる拡張機能です。
 行の右にコミットが表示されたり、過去の履歴を表示させたりと`git`のことならこいつにおまかせ感がある。
 
