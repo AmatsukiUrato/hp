@@ -40,7 +40,7 @@ VS Code上にあるテキストを自動で添削してくれるスグレモノ�
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow)
 
-## Bracket Pair Colorizer⚪️
+## Bracket Pair Colorizer🌈
 ペアの括弧同士が同じ色になるので、どこで始まってどこで終わるのかがわかりやすい。  
 `python`などのインデントがプログラムの仕組みに組み込まれているものなら`indent-rainbow`だけで問題ないのですが、変なインデントが大量にある闇プロジェクトではこちらが大活躍します。普通に使ってても十分に便利なんですけどね。  
 後は完全な独断と偏見なのですが、関数型言語にはあった法が良いと思われます（括弧がいっぱいあるから）。
@@ -59,7 +59,7 @@ VS Code上にあるテキストを自動で添削してくれるスグレモノ�
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 
-## Markdown Preview Enhanced
+## Markdown Preview Enhanced🔍
 Markdown Previewの拡張版。PlantUmlが使えたり、`pdf`化や`html`化が行えるようになっていたりと、
 大幅に拡張されている。とりあえず入れておきたい拡張機能の1つ。
 
@@ -73,19 +73,19 @@ Marp CLIもいいけど、ぱっと簡単に使うならこっち。
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 
-## Live Server
+## Live Server🐟
 ワンクリックで、現在のディレクトリを元にしたローカルサーバを建てられるスグレモノ。  
 ローカルで何か確認したいときがあればこちらをどうぞ。
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
-## GitLens — Git supercharged
+## GitLens — Git supercharged⚪️
 拡張機能のタイトルに付いていてちょっとムカついたが、その名の通り、`git`をめちゃくちゃ便利にしてくれる拡張機能です。
 行の右にコミットが表示されたり、過去の履歴を表示させたりと`git`のことならこいつにおまかせ感がある。
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-## Code Runner
+## Code Runner🏃‍♂️
 ちょっとコードを動作させたいときにとても便利です。  
 さまざまな言語に対応しているみたいなので、結構好きな言語でショートコードの確認ができたりする。下図はJavaの例です。
 
@@ -95,7 +95,7 @@ Marp CLIもいいけど、ぱっと簡単に使うならこっち。
 
 
 # 二軍
-そこまで頻繁に使わないものや、少し尖ったもの。次から本気出す。
+そこまで頻繁に使わないものや、少し尖ったもの。
 
 ## vscode-spotify
 下のバーにSpotifyの情報が表示される🎵。  
@@ -108,7 +108,7 @@ Marp CLIもいいけど、ぱっと簡単に使うならこっち。
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 
-## filesize🗂
+## filesize📁
 左下にファイルのサイズを表示するだけのアプリ。たまに便利。
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=mkxml.vscode-filesize)
