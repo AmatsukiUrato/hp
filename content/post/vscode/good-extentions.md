@@ -53,7 +53,7 @@ VS Code上にあるテキストを自動で添削してくれるスグレモノ�
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
-## vscode-icons
+## vscode-icons🏷
 多分定番の拡張機能。さまざまなiconが視覚的にわかりやすく表示されるようになる。  
 個人的には、フォルダーの識別とかが好き。
 
@@ -65,7 +65,7 @@ Markdown Previewの拡張版。PlantUmlが使えたり、`pdf`化や`html`化が
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
-## Marp for VS Code
+## Marp for VS Code🎨
 MarkdownToSlideの決定版。[記事で一度紹介しました。]({{< ref "/post/marp/updated-marp.md" >}})  
 Chromeのパスを指定してあげることで、`pdf`や`pptx`などのスライドへVS Code上から変換できる。  
 Marp CLIもいいけど、ぱっと簡単に使うならこっち。  
