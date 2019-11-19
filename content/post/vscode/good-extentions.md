@@ -1,5 +1,5 @@
 ---
-title: "使ってよかったVSCode拡張機能13選+3選の紹介"
+title: "使ってよかったVSCode拡張機能14選+3選の紹介"
 date: 2019-11-14T00:42:17+09:00
 tags: [VSCode, Extension, Utility]
 archives: "2019"
