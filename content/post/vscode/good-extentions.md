@@ -93,6 +93,12 @@ Marp CLIもいいけど、ぱっと簡単に使うならこっち。
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
+## TODO Highlight💡
+TODO:やFIXME:などがデフォルトで設定されていますが、NOTE:やDONE:など、自身のオリジナルタグを追加することで色々な用途に利用可能です！
+自分はメモとかにも利用しています。
+
+[Download Page](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight)
+
 
 # 二軍
 そこまで頻繁に使わないものや、少し尖ったもの。
