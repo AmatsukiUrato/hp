@@ -110,7 +110,7 @@ Marp CLIもいいけど、ぱっと簡単に使うならこっち。
 [Download Page](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.vscode-spotify)
 
 ## Better Comments📝
-特定のコメント文字列（TODOやFIXMEなど）に対して、色を付けてくれる拡張機能です。
+特定のコメント文字列（TODO、!、?など）に対して、色を付けてくれる拡張機能です。
 
 [Download Page](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
 

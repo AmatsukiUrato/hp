@@ -21,7 +21,7 @@ draft: true
 ![userPoolとIdentifyPoolの違い](/resources/try-cognito-zero-start/what-is-userpool-identitypool.png)
 
 ### ユーザプール
-サインアップ/サインインを行うための基盤を提供する
+サインアップ/サインインを行うための基盤を提sxxxwssdax供する
 
 ### IDプール
 匿名ユーザ/サインインしたユーザに  
