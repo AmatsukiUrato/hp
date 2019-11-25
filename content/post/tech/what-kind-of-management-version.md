@@ -1,7 +1,7 @@
 ---
-title: "いろんなソフトのバージョンの付け方を調べてみた"
+title: "いろんなもののバージョンの付け方を調べてみた"
 date: 2019-11-25T21:20:19+09:00
-tags: [Tech, Version, ]
+tags: [Tech, Version]
 archives: "2019"
 author: Amatsuki
 draft: false
