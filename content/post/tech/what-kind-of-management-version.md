@@ -43,6 +43,7 @@ LTS版やStable版などの表記は省いてます。
 - Windows 10
     - [AAAA]
     - A: Version
+
 ## プログラミング言語
 - Python
     - [A].[B].[CC]
