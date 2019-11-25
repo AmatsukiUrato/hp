@@ -76,7 +76,7 @@ LTS版やStable版などの表記は省いてます。
     - B: Minor
     - Majorが4だと、LTS版らしい
 - IntelliJ
-    - [YYYY].[Major].[Minor]
+    - [YYYY].[A].[B]
     - Y: 年
     - A: Major
     - B: Minor
@@ -147,5 +147,7 @@ LTS版やStable版などの表記は省いてます。
     - [Ruby Releases](https://www.ruby-lang.org/en/downloads/releases/)
 - Windows
     - [Windows 10 リリース情報](https://docs.microsoft.com/ja-jp/windows/release-information/)
+- IntelliJ
+    - [Releases | IntelliJ IDEA Blog](https://blog.jetbrains.com/idea/category/releases/)
 - HearthStone
     - [Patches](https://hearthstone.gamepedia.com/Patches)
