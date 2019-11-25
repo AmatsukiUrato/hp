@@ -24,41 +24,41 @@ LTS版やStable版などの表記は省きます。
 
 ## OS
 - Ubuntu
-    - <YY>.<0M>
+    - [YY].[0M]
     - YY: 年
     - 0M: 月
 - ArchLinux
-    - <YYYY>.<0M>.<0D>
+    - [YYYY].[0M].[0D]
     - YYYY: 年
     - 0M: 月
     - 0D: 日
 - CentOS
-    - <A>.<B>.<CCCC>
+    - [A].[B].[CCCC]
     - 恐らく
         - A: Major
         - B: Minor
         - C: Patch
 - Windows 10
-    - <AAAA>
+    - [AAAA]
     - A: Version
 ## プログラミング言語
 - Python
-    - <A>.<B>.<CC>
+    - [A].[B].[CC]
     - A: Major:重要な変更リリース
     - B: Minor:大きくない変更
     - C: Micro:バグフィックス
 - Node.js
-    - <AA>.<BB>.<C>
+    - [AA].[BB].[C]
     - A: Major
     - B: Minor
     - C: Revision
 - Ruby
-    - <A>.<B>.<C>
+    - [A].[B].[C]
     - A: Major:メインのバージョンアップ
     - B: Minor:互換性があるバージョンアップ
     - C: Patch:バグフィックス
 - Java
-    - <AA>.<B>.<C>.<D>
+    - [AA].[B].[C].[D]
         - A: Feature: 機能リリース
         - B: Interim: 暫定リリース（バグ修正、機能強化）
         - C: Update: セキュリティリリース、リグレッション解決、バグ修正などのアップデート用
@@ -67,29 +67,29 @@ LTS版やStable版などの表記は省きます。
 
 ## アプリ
 - Unity
-    - <YYYY>.<A>.<BB>
+    - [YYYY].[A].[BB]
     - Y: 年
     - A: Major
     - B: Minor
     - Majorが4だと、LTS版らしい
 - IntelliJ
-    - <YYYY>.<Major>.<Minor>
+    - [YYYY].[Major].[Minor]
     - Y: 年
     - A: Major
     - B: Minor
 - Chrome
-    - <AA>.<B<>.<CCCC>.<DD>
+    - [AA].[B].[CCCC].[DD]
     - A: Major
     - B: Minor
     - C: Build
     - D: Patch
 - Docker
-    - <AA>.<BB>.<C>
+    - [AA].[BB].[C]
     - A: Major
     - B: Minor
     - C: Patch
 - HearthStone(Game)
-    - <AA>.<B>.<C>.<DDDDD>
+    - [AA].[B].[C].[DDDDD]
     - A: Major
     - B: Minor
     - C: Patch
@@ -108,8 +108,9 @@ LTS版やStable版などの表記は省きます。
 複雑なバージョンをつけるのは、それはそれでロマンがありますが、やはり使用者にとってわかりやすくするのが一番だと思いました。
 
 セマンティックバージョニングでも、同じようなことが書かれています。
+
 >このアイデアは新しいものでもなければ、革新的なものでもありません。実際、みなさんも似たような取り組みを既におこなっているかもしれません。問題は「似ている」のでは不十分だということです。正式な仕様書による取り決めがなければ、バージョンナンバーは依存性の管理において基本的には無意味です。上記のアイデアに対して名前と正確な定義を与えることよって、あなたの開発するソフトウェアにおいて、あなたの意図がユーザーに対して伝わりやすくなることでしょう。一度、これらの意図を正確にしてしまえば、柔軟な（しかし、柔軟すぎてはいけない）依存性の仕様を作ることができます。
->[セマンティック バージョニング 2.0.0](https://semver.org/lang/ja/)
+][セマンティック バージョニング 2.0.0](https://semver.org/lang/ja/)
 
 決してStains;Gateのダルみたいな命名はしてはいけない ~~（確かにかっこよくてロマンはあるけど）~~
 
