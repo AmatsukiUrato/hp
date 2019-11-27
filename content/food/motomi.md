@@ -1,6 +1,7 @@
 ---
 title: "心水（モトミ）"
 date: 2019-11-26T22:07:03+09:00
+tags: [大阪, ランチ, 高級感]
 archives: "2019"
 author: Amatsuki
 draft: false
