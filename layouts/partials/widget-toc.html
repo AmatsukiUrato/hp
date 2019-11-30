@@ -1,0 +1,25 @@
+<style>
+    .sticky {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 1.5em;
+    }
+
+    /* #TableOfContents {
+        margin-left: -2em;
+    }
+
+    #TableOfContents ul {
+        list-style-type: none;
+    } */
+</style>
+
+{{ with .TableOfContents }}
+<div class="content box sticky">
+    <h1 class="title is-5">Contents</h1>
+    <div class="contents">
+        {{ . }}
+    </div>
+</div>
+<hr />
+{{ end }}
