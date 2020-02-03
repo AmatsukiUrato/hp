@@ -11,10 +11,20 @@ draft: false
 
 クソザコナメクジのエンジニア。  
 メモ的な感じで書いていってます。  
-不定期更新ですが、ブログの見た目も綺麗にしたので更新頑張って継続していきたいです（4敗orz）  
+不定期更新ですが、ブログの見た目も綺麗にしたので更新頑張って継続していきたいです（人生でブログ継続4敗orz）  
 好きなものは技術全般とゲーム、嫌いなものはネ申エクセルと文句しか言わない人です。  
 後はリトバスのクドが好きです。
-何かあればFooterのTwitterまで。
+何かあればFooterのTwitterまで。中身はおっさんです。
+
+# ブログの記事について
+記事内に記述がない場合、文章については**クリエイティブ・コモンズ表示4.0国際ライセンス**で公開します。  
+ソースコードについては、コピペしたいときもあると思うので（俺のソースをコピペしたいとかあるのかは疑問ですが）  
+`MITLicense`、`Unlicense`、`SUSHI-WARE LICENSE`のマルチライセンスとします。  
+要はコピペしたい人はコピペしていいし、優しい人は寿司おごってくれたり著作権表示してくれていいよって感じです。
+
+|文章|ソースコード|
+|:---:|:---:|
+|<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>|Unlicense or [![SUSHI-WARE LICENSE](https://img.shields.io/badge/license-SUSHI--WARE%F0%9F%8D%A3-blue.svg)](https://github.com/MakeNowJust/sushi-ware) or MITLisence|
 
 # PrivacyPolicy
 本サイトでは、サイト分析にGoogle Analyticsを利用しております。  
