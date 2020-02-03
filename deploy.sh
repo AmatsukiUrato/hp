@@ -13,11 +13,8 @@ git push origin master
 
 echo -e "\033[0;32mRebuilding public folder...\033[0m"
 # Build the project.
-(
-cd public
-ls | xargs rm -rf >> /dev/null
-)
-hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
+hugo --cleanDestinationDir 
+# if using a theme, replace with `hugo -t <YOURTHEME>`
 
 
 # Go To Public folder
