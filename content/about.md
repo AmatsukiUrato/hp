@@ -6,10 +6,14 @@ author: Amatsuki
 draft: false
 ---
 # About me
+
+![アバター](https://github.com/AmatsukiUrato.png)
+
 クソザコナメクジのエンジニア。  
 メモ的な感じで書いていってます。  
 不定期更新ですが、ブログの見た目も綺麗にしたので更新頑張って継続していきたいです（4敗orz）  
 好きなものは技術全般とゲーム、嫌いなものはネ申エクセルと文句しか言わない人です。  
+後はリトバスのクドが好きです。
 何かあればFooterのTwitterまで。
 
 # PrivacyPolicy
