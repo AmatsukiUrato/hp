@@ -33,7 +33,7 @@ Google社によるアクセス情報の収集方法および利用方法につ�
 >Cookieとは、Webサイトの提供者が、Webブラウザを通じて訪問者のコンピュータに一時的にデータを書き込んで保存させる仕組みのことです。  
 >http://e-words.jp/w/Cookie.html
 
-ユーザーはブラウザの設定によりcookieの受け取りを拒否することができます。  
+ユーザーはブラウザの設定によりcookieの受け取りを拒否できます。  
 Googleアナリティクスのcookieを受け取り拒否する場合は、
 
 [Googleアナリティクス オプトアウトアドオン](https://tools.google.com/dlpage/gaoptout)
