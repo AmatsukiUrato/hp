@@ -13,6 +13,7 @@
                 </div>
                 {{ end }}
                 <hr />
+                {{ if (gt .WordCount 400 ) }}
                 {{ with .TableOfContents }}
                 <div class="card">
                     <div class="card-content">
@@ -23,6 +24,7 @@
                     </div>
                 </div>
                 <hr>
+                {{ end }}
                 {{ end }}
                 {{ $year := (div (sub now.Unix .Lastmod.Unix) 31536000) }}
                 {{ if le 1 $year }}
