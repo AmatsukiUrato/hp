@@ -5,7 +5,8 @@ author: Amatsuki
 draft: false
 ---
 # About me 🚀
-<img alt="アバター" src="https://github.com/AmatsukiUrato.png" style="background:-webkit-linear-gradient(280deg,hsla(142.83,75.49%,72.42%,1) 2%,hsla(142.83,75.49%,72.42%,0) 79%);background:linear-gradient(170deg,hsla(142.83,75.49%,72.42%,1) 2%,hsla(142.83,75.49%,72.42%,0) 79%)">
+
+{{< figure src="https://github.com/AmatsukiUrato.png" alt="アバター" >}}
 
 クソザコナメクジのエンジニア。  
 メモ的な感じで書いていってます。  
@@ -22,7 +23,7 @@ draft: false
 
 |文章|ソースコード|
 |:---:|:---:|
-|<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>|Unlicense or [![SUSHI-WARE LICENSE](https://img.shields.io/badge/license-SUSHI--WARE%F0%9F%8D%A3-blue.svg)](https://github.com/MakeNowJust/sushi-ware) or MITLisence|
+|[![クリエイティブ・コモンズ・ライセンス](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)|Unlicense or [![SUSHI-WARE LICENSE](https://img.shields.io/badge/license-SUSHI--WARE%F0%9F%8D%A3-blue.svg)](https://github.com/MakeNowJust/sushi-ware) or MITLisence|
 
 # PrivacyPolicy
 ## ざっくりな説明
