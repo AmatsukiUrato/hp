@@ -1,2 +1,5 @@
 # My Blog
-URL: http://amatsukiurato.github.io/
+https://amatsukiurato.github.io/
+
+# Deploy to
+https://github.com/AmatsukiUrato/AmatsukiUrato.github.io
