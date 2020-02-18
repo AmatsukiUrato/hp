@@ -6,7 +6,7 @@ archives: "2020"
 author: Amatsuki
 draft: false
 ---
-
+# 以前
 昔（v0.60.0以前）はソースコードに行数を入れるには、以下のような記述が必要でした。
 ```go
 {{</* highlight go "linenos=table,hl_lines=8 15-17,linenostart=199" */>}}
@@ -14,6 +14,7 @@ draft: false
 {{</* / highlight */>}}
 ```
 
+# 今
 今は以下のconfig（config.toml）を設定しておくことで、
 バッククォート(`)だけのコードでも行数が付くようになってます。
 
@@ -52,6 +53,7 @@ draft: false
 - tabWidth
     - tab幅。2か4で迷う。
 
+# My設定
 最後に自分の設定乗っけておきます。
 ```toml
 [markup]
