@@ -6,18 +6,18 @@ archives: "2019"
 author: Amatsuki
 draft: false
 ---
-# TL;DR
+## TL;DR
 - `Color Tool`でもできるっぽいが、今後は`Windows Terminal`を使う
 - `Settings`の`profiles`に設定を記述すると適応される
 - 詳細は[ここ](https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md)を確認すること
 
-# はじめに
+## はじめに
 プライベートではMacBook Proを使用しているのですが、会社ではThinkPadのWindowsPCを開発PCとして利用しています。  
 ちょっとした作業をする際には、`WSL`を利用して行うようにしているのですが、どうしても`PowerShell`で処理を走らせないと駄目な場面がでてきます。そこでようやく`PowerShell`を開くのですが、デフォルトの色が嫌がらせレベルで見ずらい…  
 
 ということで、色を変更する方法を調査しました。
 
-# 変更方法を探す🔎
+## 変更方法を探す🔎
 軽くググったところ、どうやら`Color Tool`というWindowsチームが作成した非公式のツールを使えば変更できるみたいです。
 
 - [10分でWindows PowerShellの配色とフォントを変更して”使える”ツールに変貌させる](https://mimimopu.com/windows-powershell-color-font-change/)
@@ -29,7 +29,7 @@ draft: false
 
 そのため、今回は`Windows Terminal`を利用する形で色変更を行いたいと思います。
 
-# Windows Terminalで色変更を行うまで🎨
+## Windows Terminalで色変更を行うまで🎨
 まず、[`Microsoft Store`](https://www.microsoft.com/store/productId/9N0DX20HK701) or [`Github`](https://github.com/microsoft/terminal/releases/)から最新版をダウンロードしてきます。起動すると、以下のようなターミナルが開くと思いますので、画像の箇所をクリックして、`Settings`をクリックします。
 
 ![セッティングを開く](/resources/tried-to-change-powershell-color/1.png)
@@ -108,13 +108,13 @@ Settingを開くと`profiles.json`が開かれます。
 }
 ```
 
-# さいごに
+## さいごに
 よく使うソフトを整備することは、効率化やモチベアップにつながるので、継続的に知識を入れていきたいです🤓
 
 windows terminalを調べていると、他のターミナルも気になりました。気力があれば記事にします。
 
 
-# 参考
+## 参考
 - [Profiles.json Documentation](https://github.com/microsoft/terminal/blob/master/doc/cascadia/SettingsSchema.md)
 - [Windows Terminal Setting ベータ版](https://qiita.com/syui/items/3236495744a16d982464)
 - [10分でWindows PowerShellの配色とフォントを変更して”使える”ツールに変貌させる](https://mimimopu.com/windows-powershell-color-font-change/)

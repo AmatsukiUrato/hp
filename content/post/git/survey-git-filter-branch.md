@@ -6,7 +6,7 @@ archives: "2019"
 author: Amatsuki
 draft: true
 ---
-# はじめに
+## はじめに
 この前、会社でメールアドレスとパスを`git`にあげてしまうという失態を犯してしましました。
 
 気づいたときには、時すでにおすし🍣  
@@ -16,7 +16,7 @@ draft: true
 
 今回はこの`filter-branch`を使って、すべての履歴から特定の文字列を置換するワンライナーを読み解いていこうと思います。
 
-# 対象のワンライナー
+## 対象のワンライナー
 ```bash
  git filter-branch -f --tree-filter "find . -name key.yml  -exec sed -i -e 's/PasswordPassword1234/hoge/g' {} \;"  --prune-empty -- --all
 ```
@@ -37,7 +37,7 @@ draft: true
 >gitの公式より
 
 
-# さいごに
+## さいごに
 
-# 参考
+## 参考
 - [Git リポジトリ内の全履歴からパスワード を置換！ リポジトリの履歴を全て書き換えて無かったことにする](https://qiita.com/yamasaki-masahide/items/7ea28b2b682b6664ba45)

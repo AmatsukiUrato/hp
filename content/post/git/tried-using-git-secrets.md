@@ -6,7 +6,7 @@ archives: "2019"
 author: Amatsuki
 draft: false
 ---
-# はじめに
+## はじめに
 昨日、日課のはてなブックマークを漁っていたところ、Developers.IOさんの [AWSでのセキュリティ対策全部盛り[初級から中級まで]](https://speakerdeck.com/cmusudakeisuke/awstefalsesekiyuriteidui-ce-quan-bu-sheng-ri-chu-ji-karazhong-ji-mate)というスライドを見つけました。
 
 <script async class="speakerdeck-embed" data-id="aba22209644646ee9ff21ef72d5a439d" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
@@ -17,7 +17,7 @@ draft: false
     - どのように検知するのか？
 - 既にtokenが混入してるコミットをプッシュした際には検知できるのか
 
-# 既にtokenがコミットされていた場合
+## 既にtokenがコミットされていた場合
 検索したところ、一年前に検証している人がいたみたいです。  
 
 >既存のリポジトリにあとからgit-secretsを対応させた場合、過去のcommit履歴を検査したいことがあるでしょう。その場合は、git secrets --scan-historyを行うことで、git historyをスキャンして検査することができます。まとめて以下に例示します。
@@ -43,7 +43,7 @@ git commit -m "commit credentials"
 
 案の定`push`できてしまいました。
 
-# 既にtokenが混入してるコミットをプッシュした場合
+## 既にtokenが混入してるコミットをプッシュした場合
 
 ここで、`git-secrets`を導入します。
 
@@ -65,7 +65,7 @@ git secrets --register-aws
 
 となっているので当たり前といえば、当たり前です。
 
-## 既にコミットしているものを検知する
+### 既にコミットしているものを検知する
 以下のコマンドで実現可能です。
 ```bash
 git secrets --scan-history
@@ -73,7 +73,7 @@ git secrets --scan-history
 
 ![検知確認](/resources/tried-using-git-secrets/secret3.png)
 
-# さいごに
+## さいごに
 `git-secrets`を入れておけば基本的にtokenを`push`してもうたｗｗｗw  
 もう終わりや😇😇😇 ...orz
 
@@ -87,5 +87,5 @@ git secrets --register-aws --global
 を適応しておいて問題ないと思います。  
 (どうしても`push`しなければならない場合は`--no-verify`オプションをつければOK😙)
 
-# 参考
+## 参考
 [git-secretsはじめました](https://qiita.com/jqtype/items/9196e047eddb53d07a91)

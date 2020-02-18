@@ -6,7 +6,7 @@ archives: "2019"
 author: Amatsuki
 draft: false
 ---
-# TL;DR
+## TL;DR
 以下の書き方で実装可（⚠️`Bulma`での実装）
 
 ```go-html-template
@@ -20,10 +20,10 @@ draft: false
 
 - Hugo公式の`.Unix`ページを見よ
 
-# はじめに
+## はじめに
 唐突に、「記事が老朽化している表示」はほしいなと思い、色々と検索して実装ができた感じです。`Go`のテンプレートエンジンにだけ詳しくなっていく…
 
-# 方法
+## 方法
 一番上に書いてあるとおり、
 ```go-html-template
 <!-- 再掲 -->
@@ -58,7 +58,7 @@ Hugoの`.Unix`ページに書いてあったのになぜもっと早く見てお
 
 計算が面倒くさい人用に、早見表を参考に置いてます。
 
-# 参考
+## 参考
 - [「早見表」すぐわかる1分～100年まで何秒なのか一覧表](https://www.rougebleu.net/%E4%BD%95%E7%A7%92%EF%BC%9F/)
 - [Hugo > .Unix](https://gohugo.io/functions/unix/)
 - [Goのtemplateにおける値の評価の書き方](https://ema-hiro.hatenablog.com/entry/20170729/1501320887)

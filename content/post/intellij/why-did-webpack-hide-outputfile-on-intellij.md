@@ -6,10 +6,10 @@ archives: "2019"
 author: Amatsuki
 draft: false
 ---
-# TL;DR
+## TL;DR
 設定からWebpackを開いて、configuration fileのパスを消す
 
-# 原因
+## 原因
 **IntelliJ**が賢すぎた。  
 というのも、webpackのアウトプット先がintelliJ IDEA上でExcluded(非表示になりIntellij上から閲覧できなくなる)のは、  
 webpackの出力先フォルダだからです。
@@ -27,5 +27,5 @@ webpackの出力先フォルダだからです。
 みたいですね。  
 これ解決するのに結構時間かかりました…
 
-# 参考
+## 参考
 [intellij bundlei\_jsが消える理由](https://youtrack.jetbrains.com/issue/WEB-35875)

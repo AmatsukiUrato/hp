@@ -6,17 +6,17 @@ archives: "2020"
 author: Amatsuki
 draft: false
 ---
-# はじめに
+## はじめに
 `hugo`でデプロイする際に、よくミスって不要記事をpublishしてしまうことがあります。
 その後再度公開を行うと、出力元のフォルダからは消えているのにもかかわらず残り続けます。
 
 今回はそれの解決を行いました。  
 （今まではpublic以下をスクリプトで消してた…）
 
-# TL;DR
+## TL;DR
 - `hugo --cleanDestinationDir`でおｋ
 
-# How to
+## How to
 ほぼほぼTL;DRで終わっちゃってますが、個人的にTL;DRがある記事のほうが手っ取り早く答えを見つけられると思っているので記載してます。  
 ググってもあんまり情報がなかったので、こういうときはとりあえず、helpを見ようということで見たら乗ってました✌️  
 以下が`hugo server -h`の内容です（Version : Hugo Static Site Generator v0.58.3）。該当箇所は一応矢印で強調してます。
@@ -49,9 +49,9 @@ Flags:
   -E, --buildExpired           include expired content
   -F, --buildFuture            include content with publishdate in the future
       --cacheDir string        filesystem path to cache directory. Defaults: $TMPDIR/hugo_cache/
-# ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
+## ⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️
       --cleanDestinationDir    remove files from destination not found in static directories
-# ⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️
+## ⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️⬆️
   -c, --contentDir string      filesystem path to content directory
   -d, --destination string     filesystem path to write files to
       --disableBrowserError    do not show build errors in the browser
@@ -104,9 +104,9 @@ Global Flags:
 「スタティックなディレクトリにはないやつを出力先フォルダから消すでー」  
 といった感じです。そのまんまですね。
 
-# さいごに
+## さいごに
 ちゃんと、公式の、ドキュメントは、読もう📔
 
-# 参考
+## 参考
 - helpコマンド
 - [公式](https://gohugo.io/commands/hugo_server/)

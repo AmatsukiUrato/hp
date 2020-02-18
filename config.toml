@@ -40,6 +40,6 @@ enableEmoji = true
         style = "monokai"
         tabWidth = 4
 	[markup.tableOfContents]
-        startLevel = 1
-        endLevel = 3
+        startLevel = 2
+        endLevel = 4
         ordered = true

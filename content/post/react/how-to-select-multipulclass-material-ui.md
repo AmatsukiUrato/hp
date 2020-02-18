@@ -6,11 +6,11 @@ draft: false
 archives: "2019"
 author: Amatsuki
 ---
-# TL;DR
+## TL;DR
 1. classデータをstring配列として持つ
 2. `配列.join(' ')`を該当の`className={}`の中に記述する
 
-# 概要
+## 概要
 最近、Reactについての勉強を行っていたところ、`class`の指定に手間取ってしまったのでメモ。
 方法としては、探したところ、以下2つがあるみたい。
 
@@ -22,7 +22,7 @@ author: Amatsuki
 面倒くさいのでソースベタ貼りしてます。  
 `Box`は`Material-ui`のUtil-componentです。
 
-# 最後に各クラスをjoinでくっつける方法
+## 最後に各クラスをjoinでくっつける方法
 ```tsx
 return (
     <Box display="flex" alignItems="center" justifyContent="center"
@@ -43,7 +43,7 @@ return (
 );
 ```
 
-# classNameに２つのclass名を直接入れる方法
+## classNameに２つのclass名を直接入れる方法
 ```tsx
 return (
     <Box display="flex" alignItems="center" justifyContent="center"
@@ -64,5 +64,5 @@ return (
 );
 ```
 
-# 参考
+## 参考
 https://material-ui.com/styles/basics/
