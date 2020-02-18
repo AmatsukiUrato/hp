@@ -13,7 +13,6 @@ summaryLength = 250
 disqusShortname = "https-amatsukiurato-github-io"
 enableEmoji = true
 
-
 [permalinks]
     post = "/:year/:filename"
 
@@ -27,6 +26,9 @@ enableEmoji = true
 
 [frontmatter]
   lastmod = [":git", "lastmod", "date", "publishDate"]
+
+[markup.goldmark.renderer]
+    unsafe = true
 
 [markup]
     [markup.highlight]

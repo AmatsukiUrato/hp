@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+{{ $tag := lower .Title }}
+
+<div class="columns">
+    <div class="column is-9">
+        <div class="tile is-child box">
+            <div class="content">
+{{ range $key, $value := .Site.Taxonomies.tags }}{{ if eq $key $tag }}{{ range $value.Pages }}
+                <article class="media">
+                    <div class="media-content">
+                        <div class="content">
+                            <div class="card">
+                                <div class="card-content">
+                                    <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
+                                    <div class="subtitle is-size-6 has-text-grey-light">
+                                        <i class="fas fa-pen"></i>&nbsp;{{ .Date.Format "2006-1-2" }} |
+                                        <i class="fas fa-redo-alt"></i>&nbsp;{{ .Lastmod.Format "2006-1-2" }} |
+                                        <i class="fas fa-clock"></i>&nbsp;{{.ReadingTime}} min read
+                                    </div>
+                                    <p class="is-size-6">{{ substr .Summary 0 50 }}...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <br>
+{{ end }}{{ end }}{{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="column is-3">
+        {{ partial "widget-tags.html" . }}<br>
+        {{ partial "widget-recent.html" . }}<br>
+        {{ partial "widget-archives.html" . }}
+    </div>
+</div>
+
+{{ end }}
