@@ -6,14 +6,14 @@ draft: false
 ---
 ## About me 🚀
 
-{{< figure src="https://github.com/AmatsukiUrato.png" alt="アバター" >}}
+{{< figure src="https://github.com/matsu4ki.png" alt="アバター" >}}
 
 クソザコナメクジのエンジニア。  
 メモ的な感じで書いていってます。  
 不定期更新ですが、ブログの見た目も綺麗にしたので更新頑張って継続していきたいです（人生でブログ継続4敗orz）  
 好きなものは技術全般とゲーム、嫌いなものはネ申エクセルと文句しか言わない人です。  
 後はリトバスのクドが好きです。
-何かあればFooterのTwitter or [github](https://github.com/AmatsukiUrato/homepage)まで。中身はおっさんです。
+何かあればFooterのTwitter or [github](https://github.com/matsu4ki/homepage)まで。中身はおっさんです。
 
 ## ブログの記事について
 記事内に記述がない場合、文章については**クリエイティブ・コモンズ表示4.0国際ライセンス**で公開します。  

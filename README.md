@@ -1,5 +1,5 @@
 # My Blog
-https://amatsukiurato.github.io/
+https://matsu4ki.github.io/
 
 # Deploy to
-https://github.com/AmatsukiUrato/AmatsukiUrato.github.io
+https://github.com/matsu4ki/matsu4ki.github.io
