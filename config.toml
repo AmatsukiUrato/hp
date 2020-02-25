@@ -1,6 +1,6 @@
-baseURL = "https://amatsukiurato.github.io"
+baseURL = "https://matsu4ki.github.io"
 title = "ぎじゅつわふたー"
-author = "Amatsuki"
+author = "matsu4ki"
 enableGitInfo = true
 canonifyurls = true
 paginate = 6
@@ -10,7 +10,7 @@ pygmentsUseClasses = true
 pygmentsCodefences = true
 hasCJKLanguage = true
 summaryLength = 250
-disqusShortname = "https-amatsukiurato-github-io"
+disqusShortname = "https-matsu4ki-github-io"
 enableEmoji = true
 
 [permalinks]
@@ -22,7 +22,7 @@ enableEmoji = true
 
 [params]
     twitter = "https://twitter.com/AmatsukiUrato"
-    github = "https://github.com/AmatsukiUrato"
+    github = "https://github.com/matsu4ki"
 
 [frontmatter]
   lastmod = [":git", "lastmod", "date", "publishDate"]
