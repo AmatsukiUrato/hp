@@ -10,7 +10,7 @@ pygmentsUseClasses = true
 pygmentsCodefences = true
 hasCJKLanguage = true
 summaryLength = 250
-disqusShortname = "https-matsu4ki-github-io"
+disqusShortname = "tech-wafter"
 enableEmoji = true
 
 [permalinks]
