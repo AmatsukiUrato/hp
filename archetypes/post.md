@@ -3,10 +3,13 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 tags: []
 archives: "{{ dateFormat "2006" now }}"
-author: Amatsuki
+author: matsuaki
 draft: false
 ---
-# はじめに
-# TL;DR
-# さいごに
-# 参考
+## はじめに
+
+## TL;DR
+
+## さいごに
+
+## 参考
