@@ -3,7 +3,7 @@
 # 固有名詞（AWS）などはそのまま記載すること
 # タグは基本的に英語を利用すること
 
-baseURL = "https://matsu4ki.github.io"
+baseURL = "https://tech-wafter.net"
 title = "ぎじゅつわふたー"
 author = "matsu4ki"
 enableGitInfo = true
