@@ -1,7 +1,7 @@
 ---
 title: "IntelliJでwebpack導入後、フォルダが見えなくなる問題の解決法"
 date: 2019-06-30T20:08:06+09:00
-tags: [IntelliJ, Webpack]
+tags: [IntelliJ, webpack]
 archives: "2019"
 author: Amatsuki
 draft: false

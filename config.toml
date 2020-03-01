@@ -1,3 +1,8 @@
+# タグルールについて
+# 基本的にはキャメルケースを利用すること
+# 固有名詞（AWS）などはそのまま記載すること
+# タグは基本的に英語を利用すること
+
 baseURL = "https://matsu4ki.github.io"
 title = "ぎじゅつわふたー"
 author = "matsu4ki"
@@ -25,7 +30,7 @@ enableEmoji = true
     github = "https://github.com/matsu4ki"
 
 [frontmatter]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
+    lastmod = [":git", "lastmod", "date", "publishDate"]
 
 [markup.goldmark.renderer]
     unsafe = true
