@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Section" "post").ByPublishDate.Reverse }}
+
+<div class="columns">
+    <div class="column is-9">
+        <div class="content">
+            {{ range $paginator.Pages }}
+            <article class="media">
+                <div class="media-content">
+                    <div class="content">
+                        <div class="card">
+                            <div class="card-content card-break-all">
+                                <a class="has-text-grey-dark" href="{{ .RelPermalink }}">
+                                    <p class="title has-text-link is-4">{{ .LinkTitle }}</p>
+                                    <div class="subtitle is-size-6 has-text-grey-light">
+                                        <i class="fas fa-pen"></i>&nbsp;{{ .Date.Format "2006-1-2" }} |
+                                        <i class="fas fa-redo-alt"></i>&nbsp;{{ .Lastmod.Format "2006-1-2" }} |
+                                        <i class="fas fa-clock"></i>&nbsp;{{.ReadingTime}} min read
+                                    </div>
+                                    <p class="is-size-6">{{ .Summary }}...</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <br>
+            {{ end }}
+        </div>
+    </div>
+    <div class="column is-3">
+        {{ partial "widget-tags.html" . }}<br>
+        {{ partial "widget-recent.html" . }}<br>
+        {{ partial "widget-archives.html" . }}
+    </div>
+</div>
+<div class="columns">
+    <div class="column is-9">
+        <nav class="pagination is-centered is-rounded" role="navigation" aria-label="pagination">
+            {{ if $paginator.HasPrev }}<a class="pagination-previous"
+                href="{{ $paginator.Prev.URL }}">Previous</a>{{ end }}
+            {{ if $paginator.HasNext }}<a class="pagination-next" href="{{ $paginator.Next.URL }}">Next</a>{{ end }}
+            <ul class="pagination-list">
+                {{ range $paginator.Pagers }}
+                <li class="pagination__item">
+                    <a class="pagination-link{{ if eq . $paginator }} is-current{{ end }}"
+                        aria-label="Goto page {{ .PageNumber }}" href="{{ .URL }}">{{ .PageNumber }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </nav>
+    </div>
+</div>
+
+{{ end }}
