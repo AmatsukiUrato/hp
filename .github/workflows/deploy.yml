@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Checkout
-        - run: |
+        run: |
           git fetch --prune --unshallow
 
       - name: Checkout theme repository
