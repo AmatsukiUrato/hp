@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-        run: |
+        - uses: actions/checkout@v2
+        - run: |
           git fetch --prune --unshallow
 
       - name: Checkout theme repository
