@@ -20,6 +20,11 @@ jobs:
           repository: Tazeg/hugo-blog-jeffprod
           path: themes/hugo-blog-jeffprod
 
+      - name: Show Cloned Directory Tree
+        run: |
+          sudo apt install -y tree
+          tree ./
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
