@@ -49,11 +49,12 @@ draft: false
 - 参照先のcommitIDが対象コミットのcommitIDになっているか
     - 対象のコミットIDでした
 - `git log`の結果が正常に表示されているか
-    - CI上のログでは、1件しか表示されていなかった
+    - **CI上のログでは、1件しか表示されていなかった**
 
 ## 結果
 
 `actions/checkout@v2`という公式のworkflowを利用してgitのcloneを行っていたのですが、デフォルトでは最新のコミットしか取ってこないようです。
+更新日時の参照先が見つけられなくなるため、すべての記事が最新のコミット更新日時を取得しに行ってしまったのだと思います。
 
 >```markdown
 ># Number of commits to fetch. 0 indicates all history.
@@ -62,7 +63,8 @@ draft: false
 >```
 >https://github.com/actions/checkout#usage
 
-すべて取得したい場合は、以下のように記載するようです。
+すべての履歴をcloneしてくることで、解決しました。
+GitHub Actionsのymlファイルでは、以下のように記載するようです。
 
 >```yaml
 >- uses: actions/checkout@v2
