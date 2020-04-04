@@ -17,9 +17,8 @@ draft: false
 
 ```yaml
 - uses: actions/checkout@v2
-- name: Checkout
-  run: |
-    git fetch --prune --unshallow
+  with:
+    fetch-depth: 0    # Fetch all history for .GitInfo and .
 ```
 
 ## 試したこと
@@ -72,6 +71,16 @@ GitHub Actionsのymlファイルでは、以下のように記載するようで
 >    git fetch --prune --unshallow
 >```
 >https://github.com/actions/checkout#fetch-all-history-for-all-tags-and-branches
+
+**2020-04-04追記**  
+actions-hugoの製作者様から直接コメントで連絡をいただきました。以下の方法でもできるみたいです。上記の設定よりも簡潔なので、こちらを利用したほうが良いと思います。感謝🙇‍♂️
+
+>```yaml
+>- uses: actions/checkout@v2
+>  with:
+>    fetch-depth: 0    # Fetch all history for .GitInfo and .
+>```
+>https://github.com/peaceiris/actions-hugo#%EF%B8%8F-use-the-latest-version-of-hugo
 
 ## さいごに
 
