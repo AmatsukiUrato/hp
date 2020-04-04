@@ -13,7 +13,7 @@ draft: false
 ## TL;DR
 
 - gitのcloneを行う際に最新コミットしか取得していなかった
-- `actions/checkout`を利用する場合は以下の方法でcloneさせ、全履歴を取得する
+- `actions/checkout`を利用する場合は以下の方法でfetchさせ、全履歴を取得する
 
 ```yaml
 - uses: actions/checkout@v2
@@ -38,7 +38,7 @@ draft: false
     - ❎MacOS:latestでのビルド
     - ✅hugoのビルドを省いてデプロイ
     - ❎オプションを外してビルド
-    - ❎手動でhugo install and build
+    - ❎既存のworkflowを使わずにコマンドでインストール（下記コマンドを実行）
         ```bash
         wget https://github.com/gohugoio/hugo/releases/download/v0.68.3/hugo_0.68.3_Linux-64bit.deb
         sudo apt-get install -y ./hugo_0.68.3_Linux-64bit.deb
