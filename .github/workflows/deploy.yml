@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Checkout
-        run: |
-          git fetch --prune --unshallow
+        with:
+          fetch-depth: 0 # Fetch all history for .GitInfo
 
       - name: Checkout theme repository
         uses: actions/checkout@v2
