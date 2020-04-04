@@ -9,8 +9,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v2
       - name: Checkout
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0 # Fetch all history for .GitInfo
 
