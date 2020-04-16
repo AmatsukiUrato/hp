@@ -2,7 +2,6 @@
 # 基本的にはキャメルケースを利用すること
 # 固有名詞（AWS）などはそのまま記載すること
 # タグは基本的に英語を利用すること
-
 baseURL = "https://tech-wafter.net"
 title = "ぎじゅつわふたー"
 author = "matsu4ki"
@@ -19,34 +18,36 @@ disqusShortname = "tech-wafter"
 enableEmoji = true
 
 [permalinks]
-    post = "/:year/:filename"
+post = "/:year/:filename"
 
 [taxonomies]
-    tag = "tags"
-    archive = "archives"
+tag = "tags"
+archive = "archives"
 
 [params]
-    twitter = "https://twitter.com/matsu4ki"
-    github = "https://github.com/matsu4ki"
+twitter = "https://twitter.com/matsu4ki"
+github = "https://github.com/matsu4ki"
 
 [frontmatter]
-    lastmod = [":git", "lastmod", "date", "publishDate"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
 
 [markup.goldmark.renderer]
-    unsafe = true
+unsafe = true
 
 [markup]
-    [markup.highlight]
-        codeFences = true
-        guessSyntax = true
-        hl_Lines = ""
-        lineNoStart = 1
-        lineNos = true
-        lineNumbersInTable = true
-        noClasses = true
-        style = "monokai"
-        tabWidth = 4
-	[markup.tableOfContents]
-        startLevel = 2
-        endLevel = 4
-        ordered = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = true
+style = "monokai"
+tabWidth = 4
+
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 4
+ordered = true
