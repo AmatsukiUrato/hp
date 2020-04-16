@@ -6,7 +6,9 @@ archives: "2019"
 author: Amatsuki
 draft: false
 ---
+
 ## はじめに
+
 ふと、名刺にARマーカーが記載されていて、  
 川島教授の顔みたいな（脳トレ）のが出てきたら、とてもおもしろいなと思いついて触ってみました。
 
@@ -16,7 +18,8 @@ draft: false
 （余談ですが、脳トレの[Switch版](https://topics.nintendo.co.jp/c/article/aa9b7d00-e021-11e9-b641-063b7ac45a6d.html)がでるみたいです）
 
 ## ARの実現方法
-軽く検索したところ、Unityで実現する方法とWeb技術で実現する方法が見つかりました。  
+
+軽く検索したところ、Unityで実現する方法とWeb技術で実現する方法が見つかりました。
 ネイティブで実現する方法もあると思いますが、今回はこの2つを見ていきます。
 
 ### Unity
@@ -52,22 +55,22 @@ Unityにするなら、アセットなどのデータを使えると思うので
 上記リンクを参考に作ったソースはこちらです(ほぼコピペ🤔)。
 
 >```html
-<!doctype HTML>
-<html>
-<script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
-<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
-<!-- スクリプト読み込み -->
-
-<body style='margin:0px; overflow:hidden;'>
-<a-scene embedded arjs="debugUIEnabled:false;trackingMethod:best;" vr-mode-ui="enabled: false">
-    <a-marker preset="hiro">
-        <a-text value="Name: Urato Amatsuki\nTwitter: @AmatsukiUrato\nGithub: AmatsukiUrato" position="0 0.5 0" align="center"></a-text>
-    </a-marker>
-    <a-entity camera></a-entity>
-</a-scene>
-</body>
-</html>
-```
+><!doctype HTML>
+><html>
+><script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+><script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
+><!-- スクリプト読み込み -->
+>
+><body style='margin:0px; overflow:hidden;'>
+><a-scene embedded arjs="debugUIEnabled:false;trackingMethod:best;" vr-mode-ui="enabled: false">
+>    <a-marker preset="hiro">
+>        <a-text value="Name: Urato Amatsuki\nTwitter: @AmatsukiUrato\nGithub: AmatsukiUrato" position="0 0.5 0" align="center"></a-text>
+>    </a-marker>
+>    <a-entity camera></a-entity>
+></a-scene>
+></body>
+></html>
+>```
 >a-textの部分以外は、参考先のhtmlを使用しております。
 
 ### スマホから繋げない問題
