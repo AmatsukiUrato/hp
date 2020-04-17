@@ -13,22 +13,21 @@ draft: false
 不定期更新ですが、ブログの見た目も綺麗にしたので更新頑張って継続していきたいです（人生でブログ継続4敗orz）  
 好きなものは技術全般とゲーム、嫌いなものはネ申エクセルと文句しか言わない人です。  
 後はリトバスのクドが好きです。
-何かあればFooterのTwitter or [github](https://github.com/matsu4ki/homepage)まで。中身はおっさんです。
+何かあればFooterの[Twitter](https://twitter.com/matsu4ki) or [github](https://github.com/matsu4ki/homepage)まで。中身はおっさんです。
 
 ## ブログの記事について
-記事内に記述がない場合、文章については**クリエイティブ・コモンズ表示4.0国際ライセンス**で公開します。  
-ソースコードについては、コピペしたいときもあると思うので（俺のソースをコピペしたいとかあるのかは疑問ですが）  
+記事内に記述がない場合、文章については**クリエイティブ・コモンズ表示4.0国際ライセンス**で公開します。ソースコードについては、コピペしたいときもあると思うので（自分のソースをコピペしたいとかあるのかは疑問ですが）  
 `MITLicense`、`Unlicense`、`SUSHI-WARE LICENSE`のマルチライセンスとします。  
 要はコピペしたい人はコピペしていいし、優しい人は寿司おごってくれたり著作権表示してくれていいよって感じです。
 
-|文章|ソースコード|
-|:---:|:---:|
-|[![クリエイティブ・コモンズ・ライセンス](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)|Unlicense or [![SUSHI-WARE LICENSE](https://img.shields.io/badge/license-SUSHI--WARE%F0%9F%8D%A3-blue.svg)](https://github.com/MakeNowJust/sushi-ware) or MITLisence|
+|文章|ソースコード|||
+|:---:|:---:|:---:|:---:|
+|[![クリエイティブ・コモンズ・ライセンス](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)|[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/) | [![SUSHI-WARE LICENSE](https://img.shields.io/badge/license-SUSHI--WARE%F0%9F%8D%A3-blue.svg)](https://github.com/MakeNowJust/sushi-ware) | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)|
 
 ## PrivacyPolicy
 ### ざっくりな説明
 1. 非個人情報をクッキーを使って取得してるよ！
-2. `Google Analytics`使いたいからGoogleに[1.]の情報を送ってるよ！
+2. *Google Analytics* 使いたいからGoogleに[1.]の情報を送ってるよ！
 3. 嫌な人は受け取り拒否できるよ（ちょっと面倒だけど）！
 
 ### ちゃんとした説明
