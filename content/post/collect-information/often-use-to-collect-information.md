@@ -17,9 +17,10 @@ draft: false
 という方にはオススメです。
 他にもあるよ〜という方がいれば、共有してくれると嬉しいです。
 
-## [Qiita](https://qiita.com/)
+## Qiita
 
-ここ最近国内で最も有名な技術情報の共有サービス。
+[Qiita](https://qiita.com/)  
+ここ最近国内でもっとも有名な技術情報の共有サービス。
 国内の類似サービスとしては、[Qrunch（クランチ）](https://qrunch.net/)や[Crieit](https://crieit.net/dashboard)などもある。
 
 ### 良いところ
@@ -28,9 +29,10 @@ draft: false
 - 国内の技術トレンドをつかみやすい
 - 記事に対してプルリクを送信でき、気軽に貢献できる
 
-## [DEV Community](https://dev.to/)
+## DEV Community
 
-技術情報の共有サービス。 
+[DEV Community](https://dev.to/)  
+技術情報の共有サービス。
 個人的にはQiitaよりもコミュニティサイトとしての色が強い印象を受けている。
 
 ### 良いところ
@@ -39,8 +41,9 @@ draft: false
 - Qiitaに比べてコメント欄が活発なので、他の人の意見も見られる機会が多い
 - 爆速
 
-## [はてなブックマーク - 人気エントリー - テクノロジー](https://b.hatena.ne.jp/hotentry/it)
+## はてなブックマーク - テクノロジー
 
+[はてなブックマーク - テクノロジー](https://b.hatena.ne.jp/hotentry/it)  
 はてなブックマークのテクノロジー項目。
 はてなユーザーがオンラインにブックマークを保存しているサイトがランキング形式で表示される。
 
@@ -51,8 +54,9 @@ draft: false
 - 畑の違う分野を知れる場合が多い
 - 技術に関わるニュースを仕入れやすい
 
-## [Hacker News](https://news.ycombinator.com/)
+## Hacker News
 
+[Hacker News](https://news.ycombinator.com/)  
 計算機科学やベンチャーなどのテーマを取り扱うソーシャルニュースサイト。
 海外版はてなブックマークという感覚に近い。
 [Hacker Newsのすすめ - Qiita](https://qiita.com/_mk2/items/86c86ab9b2b2ff9b7bb0)
@@ -63,8 +67,9 @@ draft: false
 - 古い記事などもランキングによく浮上している
 - 記事数が多い
 
-## [Product Hunt – The best new products in tech.](https://www.producthunt.com/)
+## Product Hunt
 
+[Product Hunt – The best new products in tech.](https://www.producthunt.com/)
 作成したアプリを投稿するサイト。
 スタートアップ企業が投稿しているパターンが多い。
 
@@ -74,8 +79,9 @@ draft: false
 - 他の人のアイデアを成果物として確認できるので、刺激的
 - どういったデザインで組まれているかなど、開発時の参考になる
 
-## [徳丸浩の日記](https://blog.tokumaru.org/)
+## 徳丸浩の日記
 
+[徳丸浩の日記](https://blog.tokumaru.org/)  
 [徳丸本](https://www.amazon.co.jp/%E4%BD%93%E7%B3%BB%E7%9A%84%E3%81%AB%E5%AD%A6%E3%81%B6-%E5%AE%89%E5%85%A8%E3%81%AAWeb%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9-%E7%AC%AC2%E7%89%88-%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%82%8B%E5%8E%9F%E7%90%86%E3%81%A8%E5%AF%BE%E7%AD%96%E3%81%AE%E5%AE%9F%E8%B7%B5-%E5%BE%B3%E4%B8%B8/dp/4797393165)で有名な徳丸さんが書いているブログ。
 セキュリティ関連の情報収集に最適。
 [SQLインジェクション対策もれの責任を開発会社に問う判決 | 徳丸浩の日記](https://blog.tokumaru.org/2015/01/sql.html) とかは全エンジニアやPMに知ってもらいたい記事です。
@@ -84,18 +90,20 @@ draft: false
 
 - セキュリティに関する知見が貯まる。
 
-## [fukabori.fm](https://fukabori.fm/)
+## fukabori.fm
 
+fukabori.fm](https://fukabori.fm/)  
 NTT Communications人事担当の方が主催しているPodCast。
-様々な分野の人を招き入れて、お話を浅いところから深堀りしていくのでわかりやすく面白いです。
+さまざまな分野の人を招き入れて、お話を浅いところから深堀りしていくのでわかりやすくおもしろいです。
 
 ### 良いところ
 
 - 実際に働いている人の「生の声」を聞けるので、リアリティがある
 - 音声なので、ラジオ感覚で軽く聞ける
 
-## [Trending repositories on GitHub today](https://github.com/trending?spoken_language_code=)
+## Trending repositories on GitHub today
 
+[Trending repositories on GitHub today](https://github.com/trending?spoken_language_code=)  
 GitHubのトレンドページ。
 
 ### 良いところ
@@ -103,8 +111,9 @@ GitHubのトレンドページ。
 - リポジトリベースでトレンドを知れる
     - 記事が投稿されていないものもキャッチアップできる
 
-## [Frontend Weekly Tokyo](https://frontendweekly.tokyo/)
+## Frontend Weekly Tokyo
 
+[Frontend Weekly Tokyo](https://frontendweekly.tokyo/)  
 フロントエンドに特化した情報共有サイト。
 
 ### 良いところ
