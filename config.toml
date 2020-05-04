@@ -34,8 +34,6 @@ lastmod = [":git", "lastmod", "date", "publishDate"]
 [markup.goldmark.renderer]
 unsafe = true
 
-[markup]
-
 [markup.highlight]
 codeFences = true
 guessSyntax = true
@@ -45,7 +43,7 @@ lineNos = true
 lineNumbersInTable = true
 noClasses = true
 style = "monokai"
-tabWidth = 4
+tabWidth = 2
 
 [markup.tableOfContents]
 startLevel = 2
