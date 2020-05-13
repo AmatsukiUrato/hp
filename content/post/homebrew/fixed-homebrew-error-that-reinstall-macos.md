@@ -1,11 +1,12 @@
 ---
-title: "MacOSを入れ直したらbrew upgradeでエラーが出るようになった"
+title: 'MacOSを入れ直したらbrew upgradeでエラーが出るようになった'
 date: 2016-10-31
 tags: [Homebrew, MacOS]
-archives: "2016"
+archives: '2016'
 author: Amatsuki-old-hatenaBlog
 draft: false
 ---
+
 <div class="notification">
 旧サイトの記事を移行してきたものとなります。
 </div>

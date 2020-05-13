@@ -1,11 +1,12 @@
 ---
-title: "情報収集によく利用するページをまとめた"
+title: '情報収集によく利用するページをまとめた'
 date: 2020-05-02T19:42:09+09:00
 tags: [collectInformation, site]
-archives: "2020"
+archives: '2020'
 author: matsu4ki
 draft: false
 ---
+
 ## はじめに
 
 自分がよく見る順で、情報収集に使っているサイトを羅列してみました。
@@ -33,12 +34,12 @@ draft: false
 
 [DEV Community](https://dev.to/)  
 技術情報の共有サービス。
-個人的にはQiitaよりもコミュニティサイトとしての色が強い印象を受けている。
+個人的には Qiita よりもコミュニティサイトとしての色が強い印象を受けている。
 
 ### 良いところ
 
 - クロス投稿ができるので、書きやすい
-- Qiitaに比べてコメント欄が活発なので、他の人の意見も見られる機会が多い
+- Qiita に比べてコメント欄が活発なので、他の人の意見も見られる機会が多い
 - 爆速
 
 ## はてなブックマーク - テクノロジー
@@ -59,7 +60,7 @@ draft: false
 [Hacker News](https://news.ycombinator.com/)  
 計算機科学やベンチャーなどのテーマを取り扱うソーシャルニュースサイト。
 海外版はてなブックマークという感覚に近い。
-[Hacker Newsのすすめ - Qiita](https://qiita.com/_mk2/items/86c86ab9b2b2ff9b7bb0)
+[Hacker News のすすめ - Qiita](https://qiita.com/_mk2/items/86c86ab9b2b2ff9b7bb0)
 
 ### 良いところ
 
@@ -84,7 +85,7 @@ draft: false
 [徳丸浩の日記](https://blog.tokumaru.org/)  
 [徳丸本](https://www.amazon.co.jp/%E4%BD%93%E7%B3%BB%E7%9A%84%E3%81%AB%E5%AD%A6%E3%81%B6-%E5%AE%89%E5%85%A8%E3%81%AAWeb%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9-%E7%AC%AC2%E7%89%88-%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%82%8B%E5%8E%9F%E7%90%86%E3%81%A8%E5%AF%BE%E7%AD%96%E3%81%AE%E5%AE%9F%E8%B7%B5-%E5%BE%B3%E4%B8%B8/dp/4797393165)で有名な徳丸さんが書いているブログ。
 セキュリティ関連の情報収集に最適。
-[SQLインジェクション対策もれの責任を開発会社に問う判決 | 徳丸浩の日記](https://blog.tokumaru.org/2015/01/sql.html) とかは全エンジニアやPMに知ってもらいたい記事です。
+[SQL インジェクション対策もれの責任を開発会社に問う判決 | 徳丸浩の日記](https://blog.tokumaru.org/2015/01/sql.html) とかは全エンジニアや PM に知ってもらいたい記事です。
 
 ### 良いところ
 
@@ -93,7 +94,7 @@ draft: false
 ## fukabori.fm
 
 fukabori.fm](https://fukabori.fm/)  
-NTT Communications人事担当の方が主催しているPodCast。
+NTT Communications 人事担当の方が主催している PodCast。
 さまざまな分野の人を招き入れて、お話を浅いところから深堀りしていくのでわかりやすくおもしろいです。
 
 ### 良いところ
@@ -104,7 +105,7 @@ NTT Communications人事担当の方が主催しているPodCast。
 ## Trending repositories on GitHub today
 
 [Trending repositories on GitHub today](https://github.com/trending?spoken_language_code=)  
-GitHubのトレンドページ。
+GitHub のトレンドページ。
 
 ### 良いところ
 
@@ -121,7 +122,6 @@ GitHubのトレンドページ。
 - フロントエンドに絞って情報収集が可能
 - 海外の記事もまとめられている
 - 概要が書かれているので、どういった記事かの把握がしやすい
-
 
 ## さいごに
 
