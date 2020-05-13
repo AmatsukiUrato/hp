@@ -1,0 +1,13 @@
+{
+  "name": "homepage",
+  "version": "1.0.0",
+  "description": "my homepage source",
+  "main": "none",
+  "repository": "git@github.com:matsu4ki/homepage.git",
+  "author": "matsu4ki <AmatsukiUrato@gmail.com>",
+  "license": "Multi License",
+  "devDependencies": {
+    "@prettier/plugin-xml": "^0.7.2",
+    "prettier": "^2.0.5"
+  }
+}
