@@ -1,0 +1,6 @@
+#!/bin/sh
+echo 'format markdown files by prettier'
+yarn prettier --write content/
+echo 'commit formatted markdown files'
+git commit -am 'format markdown files by prettier'
+echo 'done'
