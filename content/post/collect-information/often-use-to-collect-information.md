@@ -20,7 +20,7 @@ draft: false
 
 ## Qiita
 
-[Qiita](https://qiita.com/)  
+[Qiita](https://qiita.com/)
 ここ最近国内でもっとも有名な技術情報の共有サービス。
 国内の類似サービスとしては、[Qrunch（クランチ）](https://qrunch.net/)や[Crieit](https://crieit.net/dashboard)などもある。
 
@@ -32,7 +32,7 @@ draft: false
 
 ## DEV Community
 
-[DEV Community](https://dev.to/)  
+[DEV Community](https://dev.to/)
 技術情報の共有サービス。
 個人的には Qiita よりもコミュニティサイトとしての色が強い印象を受けている。
 
@@ -44,7 +44,7 @@ draft: false
 
 ## はてなブックマーク - テクノロジー
 
-[はてなブックマーク - テクノロジー](https://b.hatena.ne.jp/hotentry/it)  
+[はてなブックマーク - テクノロジー](https://b.hatena.ne.jp/hotentry/it)
 はてなブックマークのテクノロジー項目。
 はてなユーザーがオンラインにブックマークを保存しているサイトがランキング形式で表示される。
 
@@ -57,7 +57,7 @@ draft: false
 
 ## Hacker News
 
-[Hacker News](https://news.ycombinator.com/)  
+[Hacker News](https://news.ycombinator.com/)
 計算機科学やベンチャーなどのテーマを取り扱うソーシャルニュースサイト。
 海外版はてなブックマークという感覚に近い。
 [Hacker News のすすめ - Qiita](https://qiita.com/_mk2/items/86c86ab9b2b2ff9b7bb0)
@@ -82,7 +82,7 @@ draft: false
 
 ## 徳丸浩の日記
 
-[徳丸浩の日記](https://blog.tokumaru.org/)  
+[徳丸浩の日記](https://blog.tokumaru.org/)
 [徳丸本](https://www.amazon.co.jp/%E4%BD%93%E7%B3%BB%E7%9A%84%E3%81%AB%E5%AD%A6%E3%81%B6-%E5%AE%89%E5%85%A8%E3%81%AAWeb%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9-%E7%AC%AC2%E7%89%88-%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%82%8B%E5%8E%9F%E7%90%86%E3%81%A8%E5%AF%BE%E7%AD%96%E3%81%AE%E5%AE%9F%E8%B7%B5-%E5%BE%B3%E4%B8%B8/dp/4797393165)で有名な徳丸さんが書いているブログ。
 セキュリティ関連の情報収集に最適。
 [SQL インジェクション対策もれの責任を開発会社に問う判決 | 徳丸浩の日記](https://blog.tokumaru.org/2015/01/sql.html) とかは全エンジニアや PM に知ってもらいたい記事です。
@@ -93,7 +93,7 @@ draft: false
 
 ## fukabori.fm
 
-fukabori.fm](https://fukabori.fm/)  
+[fukabori.fm](https://fukabori.fm/)
 NTT Communications 人事担当の方が主催している PodCast。
 さまざまな分野の人を招き入れて、お話を浅いところから深堀りしていくのでわかりやすくおもしろいです。
 
@@ -104,7 +104,7 @@ NTT Communications 人事担当の方が主催している PodCast。
 
 ## Trending repositories on GitHub today
 
-[Trending repositories on GitHub today](https://github.com/trending?spoken_language_code=)  
+[Trending repositories on GitHub today](https://github.com/trending?spoken_language_code=)
 GitHub のトレンドページ。
 
 ### 良いところ
@@ -114,7 +114,7 @@ GitHub のトレンドページ。
 
 ## Frontend Weekly Tokyo
 
-[Frontend Weekly Tokyo](https://frontendweekly.tokyo/)  
+[Frontend Weekly Tokyo](https://frontendweekly.tokyo/)
 フロントエンドに特化した情報共有サイト。
 
 ### 良いところ
