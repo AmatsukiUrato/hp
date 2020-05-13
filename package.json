@@ -8,6 +8,12 @@
   "license": "Multi License",
   "devDependencies": {
     "@prettier/plugin-xml": "^0.7.2",
+    "husky": "^4.2.5",
     "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "echo 'format markdown files by prettier' && yarn prettier --write content/ && echo 'commit formatted markdown files' && git commit -am 'format markdown files by prettier' && echo 'done'"
+    }
   }
 }
