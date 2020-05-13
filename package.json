@@ -13,7 +13,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "echo 'format markdown files by prettier' && yarn prettier --write content/ && echo 'commit formatted markdown files' && git commit -am 'format markdown files by prettier'"
+      "pre-push": "echo 'format markdown files by prettier' && yarn prettier --write content/ && echo 'commit formatted markdown files' && git add content/ && git commit -m 'format markdown files by prettier'"
     }
   }
 }
