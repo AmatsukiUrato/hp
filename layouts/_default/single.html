@@ -1,65 +1,79 @@
 {{ define "main" }}
-
+<style>
+  /* TOCの幅を変更する */
+  #TableOfContents ol {
+    margin-left: 2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+  }
+</style>
 <div class="columns">
-    <div class="column is-9">
-        <div class="tile is-child box">
-            <div class="content">
-                <p class="title is-4">{{ .Title }}</p>
-                {{ if ne .Title "About" }}
-                <div class="subtitle is-size-6 has-text-grey-light">
-                    <i class="fas fa-pen"></i>&nbsp;{{ .Date.Format "2006-1-2" }} |
-                    <i class="fas fa-redo-alt"></i>&nbsp;{{ .Lastmod.Format "2006-1-2" }} |
-                    <i class="fas fa-clock"></i>&nbsp;{{.ReadingTime}} min read
-                </div>
-                {{ end }}
-                <hr />
-                {{ if (gt .WordCount 400 ) }}
-                {{ with .TableOfContents }}
-                <div class="card">
-                    <div class="card-content">
-                        <h1 class="title is-5">Contents</h1>
-                        <div class="contents">
-                            {{ . }}
-                        </div>
-                    </div>
-                </div>
-                <hr>
-                {{ end }}
-                {{ end }}
-                {{ $year := (div (sub now.Unix .Lastmod.Unix) 31536000) }}
-                {{ if le 1 $year }}
-                <div class="notification is-warning">
-                    この記事は、{{ $year }}年間更新されておりません。
-                </div>
-                {{ end }}
-                {{ .Content }}
-
-
-            </div>
-            {{ if ne .Title "About" }}
-            <hr />
-            {{ with .Params.tags }}<div>Tags:{{ range . }} <a class="tag is-link" href="/tags/{{lower . }}/">#{{ . }}</a>{{ end }}</div>
-            <hr />
-            {{ end }}
-            <div>
-                <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-            </div>
-            <hr />
-            <div>
-            {{ template "_internal/disqus.html" . }}
-            </div>
-            {{ end }}
-
-
+  <div class="column is-9">
+    <div class="tile is-child box">
+      <div class="content">
+        <p class="title is-4">{{ .Title }}</p>
+        {{ if ne .Title "About" }}
+        <div class="subtitle is-size-6 has-text-grey-light">
+          <i class="fas fa-pen"></i>&nbsp;{{ .Date.Format "2006-1-2" }} |
+          <i class="fas fa-redo-alt"></i>&nbsp;{{ .Lastmod.Format "2006-1-2" }} |
+          <i class="fas fa-clock"></i>&nbsp;{{.ReadingTime}} min read
         </div>
+        {{ end }}
+        <hr />
+        {{ if (gt .WordCount 400 ) }}
+        {{ with .TableOfContents }}
+        <div class="card">
+          <div class="card-content">
+            <h1 class="title is-5">Contents</h1>
+            <div class="contents">
+              {{ . }}
+            </div>
+          </div>
+        </div>
+        <hr>
+        {{ end }}
+        {{ end }}
+        {{ $year := (div (sub now.Unix .Lastmod.Unix) 31536000) }}
+        {{ if le 1 $year }}
+        <div class="notification is-warning">
+          この記事は、{{ $year }}年間更新されておりません。
+        </div>
+        {{ end }}
+        {{ .Content }}
+
+
+      </div>
+      {{ if ne .Title "About" }}
+      <hr />
+      {{ with .Params.tags }}<div>Tags:{{ range . }} <a class="tag is-link"
+          href="/tags/{{lower . }}/">#{{ . }}</a>{{ end }}</div>
+      <hr />
+      {{ end }}
+      <div>
+        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button"
+          data-show-count="false">Tweet</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <a href="https://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="basic-label"
+          data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img
+            src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加"
+            width="20" height="20" style="border: none;" /></a>
+        <script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8"
+          async="async"></script>
+      </div>
+      <hr />
+      <div>
+        {{ template "_internal/disqus.html" . }}
+      </div>
+      {{ end }}
+
     </div>
-    <div class="column is-3">
-        {{ partial "widget-tags.html" . }}<br>
-        {{ partial "widget-recent.html" . }}<br>
-        {{ partial "widget-related.html" . }}<br>
-        {{ partial "widget-archives.html" . }}
-    </div>
+  </div>
+  <div class="column is-3">
+    {{ partial "widget-tags.html" . }}<br>
+    {{ partial "widget-recent.html" . }}<br>
+    {{ partial "widget-related.html" . }}<br>
+    {{ partial "widget-archives.html" . }}
+  </div>
 </div>
 
-    {{ end }}
+{{ end }}
