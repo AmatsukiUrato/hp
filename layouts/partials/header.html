@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ .Site.Title }} {{ if ne .Site.Title .Title }}{{ with .Title }} | {{ . }}{{ end }}{{ end }}</title>
-  <meta name="description" content="{{.Description | default .Site.Params.SiteDescription}}">
+  <meta name="description" content="{{ .Params.Description | default .Site.Params.Description}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="shortcut icon" href="{{ "favicon/favicon.ico" | absURL }}" />
@@ -31,7 +31,6 @@
 </head>
 
 <body>
-
   <!-- nav -->
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">

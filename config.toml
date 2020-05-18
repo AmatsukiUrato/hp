@@ -4,7 +4,6 @@
 # タグは基本的に英語を利用すること
 baseURL = "https://tech-wafter.net"
 title = "ぎじゅつわふたー"
-description = "ソフトウェア開発に関わる内容を主にOutputしているサイトです。"
 author = "matsu4ki"
 enableGitInfo = true
 canonifyurls = true
@@ -28,6 +27,7 @@ archive = "archives"
 [params]
 twitter = "https://twitter.com/matsu4ki"
 github = "https://github.com/matsu4ki"
+description = "ソフトウェア開発に関わる内容を主にOutputしているサイトです。"
 
 [frontmatter]
 lastmod = [":git", "lastmod", "date", "publishDate"]
