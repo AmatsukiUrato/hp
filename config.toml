@@ -4,6 +4,7 @@
 # タグは基本的に英語を利用すること
 baseURL = "https://tech-wafter.net"
 title = "ぎじゅつわふたー"
+description = "ソフトウェア開発に関わる内容を主にOutputしているサイトです。"
 author = "matsu4ki"
 enableGitInfo = true
 canonifyurls = true

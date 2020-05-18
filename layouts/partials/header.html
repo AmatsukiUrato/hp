@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ .Site.Title }} {{ if ne .Site.Title .Title }}{{ with .Title }} | {{ . }}{{ end }}{{ end }}</title>
+  <meta name="description" content="{{.Description | default .Site.Params.SiteDescription}}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="shortcut icon" href="{{ "favicon/favicon.ico" | absURL }}" />
