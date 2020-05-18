@@ -5,7 +5,13 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ .Site.Title }} {{ if ne .Site.Title .Title }}{{ with .Title }} | {{ . }}{{ end }}{{ end }}</title>
-  <meta name="description" content="{{ .Params.Description | default .Site.Params.Description}}">
+  {{if .Params.Description }}
+  <meta name="description" content="{{ .Params.Description }}">
+  {{else if .IsPage}}
+  <meta name="description" content="{{ .Summary | default .Site.Params.Description }}">
+  {{else}}
+  <meta name="description" content="{{ .Site.Params.Description }}">
+  {{end}}
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="shortcut icon" href="{{ "favicon/favicon.ico" | absURL }}" />
