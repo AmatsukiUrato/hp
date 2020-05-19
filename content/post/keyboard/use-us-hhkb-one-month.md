@@ -5,7 +5,7 @@ date: 2020-05-15T21:54:00+09:00
 tags: [hhkb, keyboard]
 archives: '2020'
 author: matsu4ki
-draft: true
+draft: false
 ---
 
 ![hhkb](/post/keyboard/img/hhkb.png)
