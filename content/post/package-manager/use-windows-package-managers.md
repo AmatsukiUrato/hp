@@ -42,7 +42,7 @@ P
 
 ![パッケージ名がダブってる場合](/post/package-manager/img/winget-duplicate-name.png)
 
-インストールできるパッケージは[パッケージリスト](https://github.com/microsoft/winget-pkgs/tree/master/manifests)から家人できます
+インストールできるパッケージは`winget search`または[パッケージリスト](https://github.com/microsoft/winget-pkgs/tree/master/manifests)から確認できます
 
 ## chocolatey を使う
 
