@@ -14,12 +14,13 @@ draft: false
 これを気に windows で使えるパッケージソフトをひととおり試してみました。
 今回は VS Code のインストールを行っていきます。
 
-試したツールは
+試したパッケージマネージャは
 
 - winget
 - chocolatey
 - scoop
 - AppGet
+- Npackd
 
 です。
 
