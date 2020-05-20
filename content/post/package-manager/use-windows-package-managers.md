@@ -1,5 +1,5 @@
 ---
-title: 'wingetのプレビュー版が公開されたので、他のパッケージ管理ソフトとかと一緒にまとめてみる'
+title: 'wingetのプレビュー版が公開されたので、他のパッケージ管理ソフトとかと一緒に使ってみる'
 description: 'microsoftよりwingetというパッケージマネージャがプレビュー版で公開されたので、wingetを試すついでに他のパッケージマネージャも試してみました'
 date: 2020-05-20T19:59:35+09:00
 tags: [windows, package-manager, winget, scoop, chocolatey, AppGet]
@@ -70,7 +70,7 @@ scoop install vscode
 ```
 
 ```powershell
-# インストールでエラーが発生した場合は実行する
+# scoop本体のインストールでエラーが発生した場合は実行する
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 ```
 
