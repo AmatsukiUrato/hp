@@ -35,9 +35,9 @@ HHKB を使う前が REALFORCE だったので REALFORCE との比較を軸に�
 
 購入してはいませんが、比較として US 配列のテンキーレスである R2TLS-US3-BK も掲載しております。
 
-|                |     PD-KB800WS     |     R2SA-JP3-BK      |     R2TLS-US3-BK     |
+|                |     PD-KB800WS<br>(HHKB Hybrid)     |     R2SA-JP3-BK<br>(REALFORCE テンキーあり)      |     R2TLS-US3-BK<br>(REALFORCE テンキーレス)     |
 | :------------: | :----------------: | :------------------: | :------------------: |
-|     サイズ     | 294mm × 120 × 40mm | 455mm x 142mm x 30mm | 369mm x 142mm x 30mm |
+|     サイズ     | 294mm × 120mm × 40mm | 455mm x 142mm x 30mm | 369mm x 142mm x 30mm |
 |      質量      |  540g(電池含まず)  |        1400g         |        1100g         |
 | キーストローク |       3.8mm        |         4mm          |         4mm          |
 |    キー荷重    |        45g         |         30g          |         30g          |
