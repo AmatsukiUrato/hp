@@ -18,6 +18,12 @@
           <i class="fas fa-redo-alt"></i>&nbsp;{{ .Lastmod.Format "2006-1-2" }} |
           <i class="fas fa-clock"></i>&nbsp;{{.ReadingTime}} min read
         </div>
+        {{ with .Params.tags }}
+        <div>
+          {{ range . }}
+          <a class="tag is-info" href="/tags/{{lower . }}/">{{ . }}</a>
+          {{ end }}
+        </div>
         {{ end }}
         <hr />
         {{ if (gt .WordCount 400 ) }}
@@ -44,9 +50,6 @@
 
       </div>
       {{ if ne .Title "About" }}
-      <hr />
-      {{ with .Params.tags }}<div>Tags:{{ range . }} <a class="tag is-link"
-          href="/tags/{{lower . }}/">#{{ . }}</a>{{ end }}</div>
       <hr />
       {{ end }}
       <div>
