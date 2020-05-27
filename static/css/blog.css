@@ -13,3 +13,7 @@ html,body {
 .card-break-all {
     word-break: break-all;
 }
+
+h2 {
+  margin-top: 2em !important;
+}
