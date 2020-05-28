@@ -21,5 +21,5 @@ author: matsu4ki
 
 ## 追記
 
-Route53のDNSを正しく設定できていなかったことが原因でした。
+Route53 の DNS を正しく設定できていなかったことが原因でした。
 詳しくは[こちらの記事]({{< ref "/post/aws/route53/resolved-routing-problem-on-route53.md" >}})を参照
