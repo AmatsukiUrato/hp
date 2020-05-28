@@ -3,7 +3,7 @@ title: 'MacOSを入れ直したらbrew upgradeでエラーが出るようにな�
 date: 2016-10-31
 tags: [Homebrew, MacOS]
 archives: '2016'
-author: Amatsuki-old-hatenaBlog
+author: matsu4ki-old-hatenaBlog
 draft: false
 ---
 
@@ -27,4 +27,6 @@ brew unlink jpeg && brew link jpeg
 こういう系の問題って目的の記事とかが見つかれば一瞬なんですけど、  
 見つかるまで永遠に解決しないので本当に辛い・・・。
 
-参考:[Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib #323](https://github.com/lovell/sharp/issues/323)
+## 参考
+
+- [Library not loaded: /usr/local/opt/jpeg/lib/libjpeg.8.dylib #323](https://github.com/lovell/sharp/issues/323)

@@ -4,7 +4,7 @@ date: 2019-07-15T18:58:56+09:00
 tags: [Route53, AWS]
 draft: false
 archives: '2019'
-author: Amatsuki
+author: matsu4ki
 ---
 
 ## TL;DR

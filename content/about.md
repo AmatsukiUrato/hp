@@ -1,7 +1,7 @@
 ---
 title: 'About'
 date: 2019-10-16T23:36:19+09:00
-author: Amatsuki
+author: matsu4ki
 draft: false
 ---
 
@@ -15,8 +15,6 @@ draft: false
 好きなものは技術全般とゲーム、嫌いなものはネ申エクセルと文句しか言わない人です。
 後はリトバスのクドが好きです。
 何かあれば[Twitter](https://twitter.com/matsu4ki)か[github](https://github.com/matsu4ki/homepage)まで。中身はおっさんです。
-
-ほそぼそとやっていきます。
 
 ## ブログの記事について
 
