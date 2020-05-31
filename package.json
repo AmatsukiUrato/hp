@@ -11,5 +11,8 @@
     "git-format-staged": "^2.1.0",
     "husky": "^4.2.5",
     "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "format": "yarn prettier --write content/"
   }
 }
