@@ -39,7 +39,9 @@ SPDX の ID なんて知らないですよね。
 なんかライセンスがいっぱい定義されているんだなーぐらいの認識で良いと思います。
 
 > An open standard for communicating software bill of material information, including components, licenses, copyrights, and security references. SPDX reduces redundant work by providing a common format for companies and communities to share important data, thereby streamlining and improving compliance.
+>https://spdx.dev/
 
 ## 参考
 
+- [Home - Software Package Data Exchange (SPDX)](https://spdx.dev/)
 - [プライベートプロダクトの package.json の license フィールドには &quot;license: UNLICENSED&quot; と指定すればいいらしい - モヒカンメモ](https://blog.pinkumohikan.com/entry/set-unlicensed-to-license-field-when-private-product)
