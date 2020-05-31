@@ -6,6 +6,7 @@ tags: [yarn, license, setting]
 archives: '2020'
 author: matsu4ki
 draft: false
+toc: false
 ---
 
 yarn を走らせると、license を正しくセットしていない場合、
@@ -28,11 +29,11 @@ SPDX の ID なんて知らないですよね。
 
 [SPDX License List | Software Package Data Exchange (SPDX)](https://spdx.org/licenses/)に Identifier という項目で記載されているので、それを上記 json の license で指定すれば OK です。
 
-### いや、俺は license 指定なんてしたくないんやが
+## いや、俺は license 指定なんてしたくないんやが
 
 "UNLICENSED"を入れれば良いみたい。
 
-### SPDX とはなんぞや？
+## SPDX とはなんぞや？
 
 ライセンス群をまとめるための、オープンな標準規格のことみたいですね。
 なんかライセンスがいっぱい定義されているんだなーぐらいの認識で良いと思います。
