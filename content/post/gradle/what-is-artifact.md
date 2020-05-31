@@ -47,7 +47,8 @@ Gradle では、複数のプロジェクトを 1 つのプロジェクトファ�
 > A file or directory produced by a build, such as a JAR, a ZIP distribution, or a native executable.
 >
 > Artifacts are typically designed to be used or consumed by users or other projects, or deployed to hosting systems. In such cases, the artifact is a single file. Directories are common in the case of inter-project dependencies to avoid the cost of producing the publishable artifact.
-> https://docs.gradle.org/current/userguide/dependency_management_terminology.html#sub:terminology_artifact
+>
+>[Gradle:Artifact](https://docs.gradle.org/current/userguide/dependency_management_terminology.html#sub:terminology_artifact)
 
 ### 複数プロジェクトをまとめる方法について
 
