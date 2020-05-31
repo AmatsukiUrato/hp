@@ -27,16 +27,18 @@
           {{ end }}
           <hr />
           {{ if (gt .WordCount 400 ) }}
-            {{ with .TableOfContents }}
-              <div class="card">
-                <div class="card-content">
-                  <h1 class="title is-5">Contents</h1>
-                  <div class="contents">
-                    {{ . }}
+            {{if ne .Params.toc false }}
+              {{ with .TableOfContents }}
+                <div class="card">
+                  <div class="card-content">
+                    <h1 class="title is-5">Contents</h1>
+                    <div class="contents">
+                      {{ . }}
+                    </div>
                   </div>
                 </div>
-              </div>
-              <hr>
+                <hr>
+              {{ end }}
             {{ end }}
           {{ end }}
           {{ $year := (div (sub now.Unix .Lastmod.Unix) 31536000) }}
