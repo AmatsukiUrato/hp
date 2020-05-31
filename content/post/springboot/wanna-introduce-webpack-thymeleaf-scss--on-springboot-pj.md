@@ -79,7 +79,7 @@ module.exports = {
 「index.js」ではなく、「../public/index.js」
 
 となります。なので、リソースに対して正しく参照できなくなります。
-ちなみに、SpringBootからリソースファイルとしてあつかわれるフォルダは、以下となります。
+ちなみに、SpringBoot からリソースファイルとしてあつかわれるフォルダは、以下となります。
 
 ```shell
 resources
