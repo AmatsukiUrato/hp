@@ -8,9 +8,18 @@
   "license": "Multi License",
   "devDependencies": {
     "@prettier/plugin-xml": "^0.7.2",
+    "@textlint-ja/textlint-rule-no-insert-re": "^1.0.0",
+    "@textlint-ja/textlint-rule-no-synonyms": "^1.0.2",
     "git-format-staged": "^2.1.0",
     "husky": "^4.2.5",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "sudachi-synonyms-dictionary": "^5.0.1",
+    "textlint": "^11.6.3",
+    "textlint-rule-no-doubled-joshi": "^3.7.2",
+    "textlint-rule-no-dropping-the-ra": "^1.1.2",
+    "textlint-rule-preset-ja-spacing": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.3",
+    "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
   "scripts": {
     "format": "yarn prettier --write content/"
