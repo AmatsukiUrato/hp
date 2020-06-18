@@ -11,7 +11,7 @@ toc: true
 
 ## 概要
 
-2020-06-16 に Bootstrap5 の α 版が公開されました！！
+2020-06-16 に Bootstrap5 の α 版が公開されました!!
 
 [Bootstrap 5 alpha! | Bootstrap Blog](https://blog.getbootstrap.com/2020/06/16/bootstrap-5-alpha/)
 
@@ -20,7 +20,7 @@ toc: true
 - **jQuery を捨てたよ**
 - **IE サポートを捨てたよ**
 - 公式ドキュメントを改善したよ
-  　- Hugo を使っているよ
+  - Hugo を使っているよ
 - ロゴを新しくしたよ
 - form 系の要素を見直したよ
 - Utilities を強化したよ
