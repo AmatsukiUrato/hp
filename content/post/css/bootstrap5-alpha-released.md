@@ -1,6 +1,6 @@
 ---
-title: 'Bootstrap5のAlpha版がリリースされたようです'
-description: ''
+title: 'Bootstrap5のAlpha版がリリースされました'
+description: 'Bootstrap5のα版がリリースされたので、現時点での変更点と、bootstrap4との容量比較を行いました。'
 date: 2020-06-19T03:53:12+09:00
 tags: [Bootstrap5, css]
 archives: '2020'
