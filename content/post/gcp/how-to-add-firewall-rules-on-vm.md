@@ -42,4 +42,4 @@ GCP はアメリカサーバーのしょぼい VM(f1-micro) だと無料で使�
 ## 参考
 
 - [ファイアウォール ルールの使用 | VPC | Google Cloud](https://cloud.google.com/vpc/docs/using-firewalls?hl=ja)
-- [Google Cloud Platformのファイアウォール設定方法 | 85's life](https://eightyfivelife.com/2019/09/google-cloud-platform-firewall-setting/)
+- [Google Cloud Platform のファイアウォール設定方法 | 85's life](https://eightyfivelife.com/2019/09/google-cloud-platform-firewall-setting/)
