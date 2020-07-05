@@ -19,7 +19,9 @@ OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to xxxxxxxx.com:443
 
 といったエラーが発生したため、調査および解決策をまとめてみました。
 
+<div class="notification">
 エラー自体は発生したのですが、キャプないので、再度発生したときに取っておきます。
+</div>
 
 ## TL;DR
 
