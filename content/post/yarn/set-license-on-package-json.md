@@ -25,13 +25,14 @@ license をセットしましょう。
 }
 ```
 
-SPDX の ID なんて知らないですよね。
+SPDX の ID なんて言われても、わからないですよね。
 
 [SPDX License List | Software Package Data Exchange (SPDX)](https://spdx.org/licenses/)に Identifier という項目で記載されているので、それを上記 json の license で指定すれば OK です。
 
 ## いや、俺は license 指定なんてしたくないんやが
 
 "UNLICENSED"を入れれば良いみたい。
+プライベートのパッケージなどで利用する場合は、この設定がベストだと思います。
 
 ## SPDX とはなんぞや？
 
@@ -39,7 +40,8 @@ SPDX の ID なんて知らないですよね。
 なんかライセンスがいっぱい定義されているんだなーぐらいの認識で良いと思います。
 
 > An open standard for communicating software bill of material information, including components, licenses, copyrights, and security references. SPDX reduces redundant work by providing a common format for companies and communities to share important data, thereby streamlining and improving compliance.
->https://spdx.dev/
+>
+> https://spdx.dev/
 
 ## 参考
 

@@ -9,6 +9,7 @@
     "preset-ja-technical-writing": {
       "ja-no-weak-phrase": false,
       "ja-no-mixed-period": false,
+      "no-exclamation-question-mark": false,
     },
     "spellcheck-tech-word": true,
     "no-double-negative-ja": true,
