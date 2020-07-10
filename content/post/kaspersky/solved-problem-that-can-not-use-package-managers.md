@@ -9,19 +9,17 @@ draft: false
 toc: true
 ---
 
+![カスペルスキーの環境設定画面](/post/kaspersky/img/kaspersky2.png)
+
 ## はじめに
 
 mac のパッケージマネージャーである homebrew にて、インストール時に
 
 ```sh
-OpenSSL SSL_connect: SSL_ERROR_SYSCALL in connection to xxxxxxxx.com:443
+curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to example.com:443
 ```
 
 といったエラーが発生したため、調査および解決策をまとめてみました。
-
-<div class="notification">
-エラー自体は発生したのですが、キャプないので、再度発生したときに取っておきます。
-</div>
 
 ## TL;DR
 
