@@ -9,7 +9,7 @@ draft: false
 toc: true
 ---
 
-![カスペルスキーの環境設定画面](/post/kaspersky/img/kaspersky2.png)
+![エラー画面](/post/kaspersky/img/kaspersky2.png)
 
 ## はじめに
 
