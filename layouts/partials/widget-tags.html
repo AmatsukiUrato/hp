@@ -1,6 +1,6 @@
 <div class="card">
   <div class="card-content">
-    <h1 class="title is-5">Tags</h1>
+    <h1 class="title is-5"><a href="{{ "tags" | absURL }}" class="has-text-grey-dark">Tags</a></h1>
     <div class="tags">
       {{ range first 50 (sort (where .Site.Taxonomies.tags "Section" "post") "value" "desc") }}
       <span class="tag"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>&nbsp;|&nbsp;{{ .Count }}</span>
