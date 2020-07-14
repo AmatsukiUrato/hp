@@ -11,7 +11,7 @@ toc: false
 
 ## 概要
 
-SpringSecurityを導入しているSpringBootのプロジェクトにて、静的ファイルを対象外にするための設定が反映されてなかったです。
+SpringSecurity を導入している SpringBoot のプロジェクトにて、静的ファイルを対象外にするための設定が反映されてなかったです。
 
 ## 原因
 
@@ -24,7 +24,7 @@ src/main/resources/public
 └── file1/
 ```
 
-上記のようなフォルダ構成の場合で、jsとcssをopenにしたい場合は下記のように設定します。
+上記のようなフォルダ構成の場合で、js と css を open にしたい場合は下記のように設定します。
 
 ```java
 @Override
@@ -33,7 +33,7 @@ public void configure(WebSecurity web) throws Exception {
 }
 ```
 
-publicで指定しても、SpringSecurityの保護対象外にならないです。
+public で指定しても、SpringSecurity の保護対象外にならないです。
 
 ```java
 @Override
