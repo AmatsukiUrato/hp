@@ -23,5 +23,10 @@
   },
   "scripts": {
     "format": "yarn prettier --write content/"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn run format"
+    }
   }
 }
