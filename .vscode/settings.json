@@ -4,5 +4,10 @@
         "**/.project": true,
         "**/.settings": true,
         "**/.factorypath": true
-    }
+    },
+    "cSpell.words": [
+        "joshi",
+        "sudachi",
+        "textlint"
+    ]
 }
