@@ -6,19 +6,27 @@
   <div class="column is-9">
     <div class="tile is-child box">
       <div class="content">
+
+        {{ if eq "tags" $tag }}
+
         <article class="media">
           <div class="media-content">
             <div class="content">
-              {{ if eq "tags" $tag }}
-
               <p class="title is-4">Tags</p>
               {{ range $key, $value := (sort (where .Site.Taxonomies.tags "Section" "post") "value" "desc") }}
-              <span class="tag mb-2 mr-2"><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>&nbsp;|&nbsp;{{ .Count }}</span>
+              <span class="tag mb-2 mr-2"><a
+                  href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>&nbsp;|&nbsp;{{ .Count }}</span>
               {{ end }}
+            </div>
+          </div>
+        </article>
 
-              {{ else }}
+        {{ else }}
 
-              {{ range $key, $value := .Site.Taxonomies.tags }}{{ if eq $key $tag }}{{ range $value.Pages }}
+        {{ range $key, $value := .Site.Taxonomies.tags }}{{ if eq $key $tag }}{{ range $value.Pages }}
+        <article class="media">
+          <div class="media-content">
+            <div class="content">
               <div class="card">
                 <div class="card-content">
                   <p class="title is-4"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
@@ -30,12 +38,12 @@
                   <p class="is-size-6">{{ substr .Summary 0 50 }}...</p>
                 </div>
               </div>
-              {{ end }}{{ end }}{{ end }}
-
-              {{ end }}
             </div>
           </div>
         </article>
+        {{ end }}{{ end }}{{ end }}
+
+        {{ end }}
         <br>
       </div>
     </div>
