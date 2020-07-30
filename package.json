@@ -11,6 +11,7 @@
     "@textlint-ja/textlint-rule-no-insert-re": "^1.0.0",
     "@textlint-ja/textlint-rule-no-synonyms": "^1.0.2",
     "git-format-staged": "^2.1.0",
+    "hugo-lunr": "^0.0.4",
     "husky": "^4.2.5",
     "prettier": "^2.0.5",
     "sudachi-synonyms-dictionary": "^5.0.1",
@@ -22,7 +23,8 @@
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
   "scripts": {
-    "format": "yarn prettier --write content/"
+    "format": "yarn prettier --write content/",
+    "index": "yarn hugo-lunr"
   },
   "husky": {
     "hooks": {
