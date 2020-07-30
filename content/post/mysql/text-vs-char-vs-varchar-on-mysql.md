@@ -2,10 +2,10 @@
 title: 'Text vs Char vs Varchar on MySQL'
 description: 'mysqlにて、文字列を保存できる型が数個あるので、何が違うのかを調べてみました。'
 date: 2020-06-07T00:04:05+09:00
-tags: [mysql, database,]
+tags: [mysql, database]
 archives: '2020'
 author: matsu4ki
-draft: false
+draft: true
 toc: false
 ---
 
@@ -13,10 +13,10 @@ toc: false
 
 MySQL に文字を保存しようとしたときに、今までは
 
-|実施内容|型|
-|---|---|
+| 実施内容           | 型      |
+| ------------------ | ------- |
 | 文字数を制限したい | varchar |
-| 他 | text |
+| 他                 | text    |
 
 ぐらいの認識しかなかったので、調べてみた。
 
