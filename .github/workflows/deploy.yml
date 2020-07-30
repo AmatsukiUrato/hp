@@ -33,6 +33,7 @@ jobs:
       - name: Build
         run: |
           hugo --gc --minify
+          yarn install
           yarn run index
 
       - name: Deploy
