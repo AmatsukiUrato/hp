@@ -1,7 +1,7 @@
 ---
 title: 'github-actions上でbuildした際、lastmodの更新がすべての記事に適用される問題を解決した'
 date: 2020-04-02T02:47:24+09:00
-tags: [github, ci, hugo]
+tags: [github, ci, hugo, github-action]
 archives: '2020'
 author: matsuaki
 draft: false
