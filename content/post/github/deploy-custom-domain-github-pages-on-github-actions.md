@@ -1,7 +1,7 @@
 ---
 title: 'GitHub-ActionsでカスタムドメインのGitHub-Pagesをデプロイすると、カスタムドメインの登録が消える'
 date: 2020-03-01T22:24:43+09:00
-tags: [github-action, ci, github-pages]
+tags: [github-actions, ci, github-pages]
 archives: '2020'
 author: matsuaki
 draft: false

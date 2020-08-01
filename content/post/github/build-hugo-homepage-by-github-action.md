@@ -1,7 +1,7 @@
 ---
 title: 'Github-Actionsでhugoのデプロイを自動化してみた'
 date: 2020-02-10T12:46:44+09:00
-tags: [hugo, github-action, ci]
+tags: [hugo, github-actions, ci]
 archives: '2020'
 author: Amatsuki
 draft: false
