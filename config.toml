@@ -28,7 +28,7 @@ archive = "archives"
 twitter = "https://twitter.com/matsu4ki"
 github = "https://github.com/matsu4ki"
 description = "ソフトウェア開発に関わる内容を主にOutputしているサイトです。"
-sns_image = "/thumbnails/2020-08-10-card.png"
+sns_image = "/thumbnails/2020-08-10-card2.png"
 
 [frontmatter]
 lastmod = [":git", "lastmod", "date", "publishDate"]
