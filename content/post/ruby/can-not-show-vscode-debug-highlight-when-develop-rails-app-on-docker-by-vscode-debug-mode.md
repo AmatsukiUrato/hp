@@ -56,7 +56,7 @@ VS Code を用いてリモートデバッグを行う場合、`プロジェク�
 
 上記を実行後にデバッグを確認すれば、正しく表示されるはずです。
 
-![確認画面](/post/ruby/img/vscode-debug-ruby-on-docker-1.png)
+![確認画面](/post/ruby/img/vscode-debug-ruby-on-docker-2.png)
 
 ## 現状のコンテナがどうなっているのかがわからない場合
 
