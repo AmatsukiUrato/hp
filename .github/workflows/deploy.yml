@@ -34,7 +34,6 @@ jobs:
         run: |
           hugo --gc --minify
           yarn install
-          yarn run index
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
