@@ -5,7 +5,7 @@
   "main": "none",
   "repository": "git@github.com:matsu4ki/homepage.git",
   "author": "matsu4ki <AmatsukiUrato@gmail.com>",
-  "license": "Multi License",
+  "license": "MIT OR Unlicense",
   "devDependencies": {
     "@prettier/plugin-xml": "^0.7.2",
     "@textlint-ja/textlint-rule-no-insert-re": "^1.0.0",
@@ -23,8 +23,7 @@
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
   "scripts": {
-    "format": "yarn prettier --write content/",
-    "index": "yarn hugo-lunr"
+    "format": "yarn prettier --write content/**/*.md"
   },
   "husky": {
     "hooks": {
