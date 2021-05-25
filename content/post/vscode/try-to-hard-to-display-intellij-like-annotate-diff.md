@@ -3,7 +3,7 @@ title: 'VSCode上でIntelliJライクなgitのannotate diffができるらしい
 date: 2020-03-24T22:42:19+09:00
 tags: [VSCode, IntelliJ, git, blame, diff]
 archives: '2020'
-author: matsuaki
+author: matsu4ki
 draft: false
 ---
 
