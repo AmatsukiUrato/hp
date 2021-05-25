@@ -1,0 +1,6 @@
+
+{{ .Scratch.Add "index" slice }}
+{{ range where .Site.RegularPages.ByPublishDate.Reverse "Section" "post" }}
+  {{- $.Scratch.Add "index" (dict "title" .Title "tags" .Params.tags "contents" (print .Title .Plain) "ref" .RelPermalink ) -}}
+{{ end }}
+{{- $.Scratch.Get "index" | jsonify -}}

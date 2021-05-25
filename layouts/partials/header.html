@@ -27,6 +27,9 @@
 
   <script data-ad-client="ca-pub-2205075653104812" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143787598-1"></script>
+
+  {{ partial "content-search.html" . }}
+
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -60,6 +63,16 @@
     </div>
     <div id="navbar-sub" class="navbar-menu">
       <div class="navbar-start">
+        <div class="navbar-item dropdown is-active search-form-nav-bar">
+          <form id="search-form" action="{{ .URL }}" onkeyup="search()">
+            <p class="control is-expanded has-icons-right">
+              <input id="search-query" class="input" type="search" placeholder="Search..." name="query" autocomplete="off" search/>
+              <span class="icon is-small is-right"><i class="fas fa-search"></i></span>
+            </p>
+          </form>
+          <div class="dropdown-menu" id="results" role="menu">
+          </div>
+        </div>
       </div>
       <div class="navbar-end">
         <div class="navbar-item">

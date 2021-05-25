@@ -52,3 +52,5 @@ startLevel = 2
 endLevel = 4
 ordered = true
 
+[outputs]
+home = ["HTML", "JSON", "RSS"]
