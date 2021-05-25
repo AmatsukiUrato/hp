@@ -23,7 +23,8 @@
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
   "scripts": {
-    "format": "yarn prettier --write content/**/*.md"
+    "format": "yarn prettier --write content/**/*.md",
+    "index": "yarn hugo-lunr"
   },
   "husky": {
     "hooks": {
