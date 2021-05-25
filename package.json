@@ -24,7 +24,7 @@
   },
   "scripts": {
     "format": "yarn prettier --write content/**/*.md",
-    "index": "yarn hugo-lunr"
+    "index": "yarn hugo-lunr -o static/index.json"
   },
   "husky": {
     "hooks": {

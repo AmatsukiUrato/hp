@@ -14,12 +14,12 @@
     <meta property="og:description"         content="{{ .Site.Params.slogan }}">
     <meta property="twitter:description"    content="{{ .Site.Params.slogan }}">
 {{ end }}
-{{ if .Params.sns_image }}
-    {{ with .Params.sns_image }}
+{{ if .Params.snsImage }}
+    {{ with .Params.snsImage }}
     <meta property="og:image"       content="{{ . | absURL }}">
     <meta property="og:image:url"   content="{{ . | absURL }}">
     {{ end }}
 {{ else }}
-    <meta property="og:image"       content="{{ .Site.Params.sns_image | absURL }}">
-    <meta property="og:image:url"   content="{{ .Site.Params.sns_image | absURL }}">
+    <meta property="og:image"       content="{{ .Site.Params.snsImage | absURL }}">
+    <meta property="og:image:url"   content="{{ .Site.Params.snsImage | absURL }}">
 {{ end }}
